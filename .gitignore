@@ -33,6 +33,9 @@ logs/
 .vscode/
 *.swp
 
+# Paper drafts (kept locally)
+paper/
+
 # OS files
 Thumbs.db
 .DS_Store
