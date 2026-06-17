@@ -1,0 +1,68 @@
+{
+  "full": {
+    "n_tasks": 46,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "norm_citation_validity_mean": 0.147,
+    "hazard_coverage_mean": 0.3551,
+    "case_relevance_mean": 0.3225,
+    "link_resolution_rate_mean": 0.3738,
+    "norm_recall_at_k_mean": 0.6739,
+    "elapsed_seconds_mean": 19.7042
+  },
+  "no_arbitration": {
+    "n_tasks": 46,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "norm_citation_validity_mean": 0.1475,
+    "hazard_coverage_mean": 0.3225,
+    "case_relevance_mean": 0.317,
+    "link_resolution_rate_mean": 0.3834,
+    "norm_recall_at_k_mean": 0.6739,
+    "elapsed_seconds_mean": 19.81
+  },
+  "no_case_evidence": {
+    "n_tasks": 46,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "norm_citation_validity_mean": 0.029,
+    "hazard_coverage_mean": 0.1721,
+    "case_relevance_mean": 0.0,
+    "link_resolution_rate_mean": 0.0,
+    "norm_recall_at_k_mean": 0.0732,
+    "elapsed_seconds_mean": 17.9461
+  },
+  "no_case_norm_linker": {
+    "n_tasks": 46,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "norm_citation_validity_mean": 0.0261,
+    "hazard_coverage_mean": 0.2609,
+    "case_relevance_mean": 0.3225,
+    "link_resolution_rate_mean": 0.0,
+    "norm_recall_at_k_mean": 0.0732,
+    "elapsed_seconds_mean": 19.039
+  },
+  "no_deterministic_ground": {
+    "n_tasks": 46,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "norm_citation_validity_mean": 0.1518,
+    "hazard_coverage_mean": 0.3134,
+    "case_relevance_mean": 0.3116,
+    "link_resolution_rate_mean": 0.378,
+    "norm_recall_at_k_mean": 0.6739,
+    "elapsed_seconds_mean": 19.0972
+  },
+  "no_query_rewrite": {
+    "n_tasks": 46,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "norm_citation_validity_mean": 0.1469,
+    "hazard_coverage_mean": 0.3569,
+    "case_relevance_mean": 0.3116,
+    "link_resolution_rate_mean": 0.3733,
+    "norm_recall_at_k_mean": 0.6739,
+    "elapsed_seconds_mean": 20.007
+  }
+}

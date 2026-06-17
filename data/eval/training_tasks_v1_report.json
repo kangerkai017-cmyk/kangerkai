@@ -1,0 +1,54 @@
+{
+  "schema_version": "training_task_v1",
+  "task_count": 58,
+  "by_theme": {
+    "高处作业": 9,
+    "脚手架": 19,
+    "起重吊装": 13,
+    "临时用电": 17
+  },
+  "skipped_counts": {
+    "no_article_refs": 28,
+    "no_theme": 1,
+    "no_resolved_norm_chunks": 1
+  },
+  "skipped_case_ids": {
+    "no_article_refs": [
+      "case-02",
+      "case-05",
+      "case-06",
+      "case-07",
+      "case-10",
+      "case-11",
+      "case-12",
+      "case-13",
+      "case-16",
+      "case-17",
+      "case-19",
+      "case-21",
+      "case-51",
+      "case-52",
+      "case-53",
+      "case-54",
+      "case-55",
+      "case-57",
+      "case-58",
+      "case-59",
+      "case-60",
+      "case-61",
+      "case-63",
+      "case-65",
+      "case-67",
+      "case-71",
+      "case-72",
+      "case-73"
+    ],
+    "no_theme": [
+      "case-15"
+    ],
+    "no_resolved_norm_chunks": [
+      "case-64"
+    ]
+  },
+  "total_cases_seen": 88
+}

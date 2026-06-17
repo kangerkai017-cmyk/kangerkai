@@ -1,0 +1,16 @@
+services:
+  elasticsearch:
+    image: ${ES_DOCKER_IMAGE:-docker.elastic.co/elasticsearch/elasticsearch:8.15.3}
+    container_name: safety-rag-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+volumes:
+  es_data:

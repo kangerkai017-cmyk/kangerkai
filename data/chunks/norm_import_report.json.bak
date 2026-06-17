@@ -1,0 +1,47 @@
+{
+  "schema_version": "norm_v1",
+  "pipeline_version": "norm_chunker_v1",
+  "chunk_count": 455,
+  "by_standard": {
+    "GB-3608-2025": 12,
+    "GB-51210-2016": 77,
+    "GB-55023-2022": 32,
+    "GB-6095-2021": 3,
+    "JGJ-162-2008": 272,
+    "JGJ-80-2016": 59
+  },
+  "by_chunk_kind": {
+    "article": 350,
+    "figure": 30,
+    "formula": 3,
+    "table": 41,
+    "term": 31
+  },
+  "tag_distribution": {
+    "临边作业": 11,
+    "交叉作业": 18,
+    "坍塌": 276,
+    "安全带": 4,
+    "安全网": 14,
+    "悬空作业": 12,
+    "操作平台": 33,
+    "攀登作业": 10,
+    "材料构配件": 89,
+    "构件失稳": 225,
+    "检查验收": 38,
+    "模板支架": 222,
+    "洞口作业": 11,
+    "脚手架使用": 171,
+    "脚手架拆除": 88,
+    "脚手架搭设": 60,
+    "触电": 19,
+    "高处作业": 76,
+    "高处坠落": 69
+  },
+  "duplicate_chunk_id_count": 0,
+  "oversized_chunk_count": 0,
+  "oversized_chunk_ids": [],
+  "mock_ids_present": [],
+  "validation_issue_count": 0,
+  "validation_issues": []
+}

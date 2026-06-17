@@ -1,0 +1,72 @@
+{
+  "llm_only": {
+    "n_tasks": 58,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.0417,
+    "case_relevance_mean": 0.0,
+    "norm_recall_at_k_mean": 0.0,
+    "case_recall_at_k_mean": 0.0,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 0.6897,
+    "retrieval_calls_mean": 0,
+    "elapsed_seconds_mean": 30.7903
+  },
+  "naive_dual": {
+    "n_tasks": 58,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.8599,
+    "hallucination_rate_mean": 0.1056,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.273,
+    "norm_recall_at_k_mean": 0.081,
+    "case_recall_at_k_mean": 0.4181,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 2,
+    "elapsed_seconds_mean": 10.2697
+  },
+  "norm_only": {
+    "n_tasks": 58,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.1552,
+    "hallucination_rate_mean": 0.1897,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.0,
+    "norm_recall_at_k_mean": 0.081,
+    "case_recall_at_k_mean": 0.0,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 1,
+    "elapsed_seconds_mean": 9.5866
+  },
+  "optimized": {
+    "n_tasks": 58,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.9212,
+    "hallucination_rate_mean": 0.0616,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.3635,
+    "norm_recall_at_k_mean": 0.1055,
+    "case_recall_at_k_mean": 0.5762,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 2,
+    "elapsed_seconds_mean": 11.9848
+  },
+  "proposed": {
+    "n_tasks": 58,
+    "norm_citation_validity_mean": 0.1408,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.2802,
+    "case_relevance_mean": 0.3204,
+    "norm_recall_at_k_mean": 0.5862,
+    "case_recall_at_k_mean": 0.3764,
+    "link_resolution_rate_mean": 0.3489,
+    "llm_calls_mean": 0,
+    "retrieval_calls_mean": 0,
+    "elapsed_seconds_mean": 21.4555
+  }
+}

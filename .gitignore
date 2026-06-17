@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Large binary files
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Database & vector store binaries
+data/chroma/
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# IDE & tool config
+.claude/
+.idea/
+.vscode/
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store

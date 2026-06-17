@@ -1,0 +1,556 @@
+{
+  "question": "脚手架拆除前为什么要设置警戒区？",
+  "norm_queries": [
+    "脚手架拆除警戒区设置要求",
+    "脚手架拆除安全防护措施",
+    "脚手架拆除作业技术要求"
+  ],
+  "case_queries": [
+    "脚手架拆除高处坠落事故"
+  ],
+  "norm_evidence": [
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-130-2011::article::7.4.1",
+      "standard_name": "JGJ 130 2011",
+      "chapter": "07 施工",
+      "article_id": "7.4.1",
+      "text": "标准：JGJ 130 2011\n章节：07 施工\n编号：7.4.1\n正文：7.4.1 脚手架拆除应按专项方案施工，拆除前应做好下列准备工作： \n1 应全面检查脚手架的扣件连接、连墙件、支撑体系等是否符合构造要求； \n2 应根据检查结果补充完善脚手架专项方案中的拆除顺序和措施，经审批\n后方可实施； \n3 拆除前应对施工人员进行交底； \n4 应清除脚手架上杂物及地面障碍物。",
+      "scenario_tags": [
+        "脚手架拆除",
+        "检查验收",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "坍塌"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ 130 2011",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 130 2011",
+      "source_path": "rag_data/rag_data/JGJ-130-2011/07_施工.pdf",
+      "standard_code": "JGJ-130-2011",
+      "year": "2011",
+      "chapter_no": "07",
+      "chapter_title": "施工",
+      "title": "脚手架拆除应按专项方案施工，拆除前应做好下列准备工作：",
+      "asset_path": "rag_data/rag_data/JGJ-130-2011/07_施工.pdf",
+      "content_hash": "3f37058d6649342a1e090ffbf34c0003dde9086ce600ccb94e8f6486a2d38de9",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::GB-55023-2022::article::5.4.2",
+      "standard_name": "GB 55023 2022",
+      "chapter": "05 搭设、使用与拆除",
+      "article_id": "5.4.2",
+      "text": "标准：GB 55023 2022\n章节：05 搭设、使用与拆除\n编号：5.4.2\n正文：5.4.2 \n脚手架的拆除作业应符合下列规定：\n1 \n架体拆除应按自上而下的顺序按步逐层进行，不应上下\n同时作业。\n2 \n同层杆件和构配件应按先外后内的顺序拆除；剪刀撑、\n \n\n斜撑杆等加固杆件应在拆卸至该部位杆件时拆除。\n3 \n作业脚手架连墙件应随架体逐层、同步拆除，不应先将\n连墙件整层或数层拆除后再拆架体。\n4\n作业脚手架拆除作业过程中，当架体悬臂段高度超过2\n步时，应加设临时拉结。",
+      "scenario_tags": [
+        "脚手架搭设",
+        "脚手架拆除",
+        "材料构配件",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "坍塌"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "GB 55023 2022",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "GB 55023 2022",
+      "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/05_搭设、使用与拆除.pdf",
+      "standard_code": "GB-55023-2022",
+      "year": "2022",
+      "chapter_no": "05",
+      "chapter_title": "搭设、使用与拆除",
+      "title": "脚手架的拆除作业应符合下列规定：",
+      "asset_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/05_搭设、使用与拆除.pdf",
+      "content_hash": "9e1d14f819467b9d188bf7eb944dde87e1ed5f7a59d35b17b77f9cdcc6846f2f",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-130-2011::article::7.4.2",
+      "standard_name": "JGJ 130 2011",
+      "chapter": "07 施工",
+      "article_id": "7.4.2",
+      "text": "标准：JGJ 130 2011\n章节：07 施工\n编号：7.4.2\n正文：7.4.2 单、双排脚手架拆除作业必须由上而下逐层进行，严禁上下同时作业；连墙件必须随脚手架逐层拆除，严禁先将连墙件整层或数层拆除后再拆脚手架；分段拆除高差大于两步时，应增设连墙件加固。",
+      "scenario_tags": [
+        "脚手架拆除",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "坍塌"
+      ],
+      "requirement_type": "禁止行为",
+      "source": "JGJ 130 2011",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 130 2011",
+      "source_path": "rag_data/rag_data/JGJ-130-2011/07_施工.pdf",
+      "standard_code": "JGJ-130-2011",
+      "year": "2011",
+      "chapter_no": "07",
+      "chapter_title": "施工",
+      "title": "单、双排",
+      "asset_path": "rag_data/rag_data/JGJ-130-2011/07_施工.pdf",
+      "content_hash": "e453cb69a56a6d20e61f46a8991efeca7bac09bb40466b531a29cb59c4a1ee3b",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::GB-55023-2022::article::2.0.3",
+      "standard_name": "GB 55023 2022",
+      "chapter": "02 基本规定",
+      "article_id": "2.0.3",
+      "text": "标准：GB 55023 2022\n章节：02 基本规定\n编号：2.0.3\n正文：2.0.3 \n脚手架搭设和拆除作业以前，应根据工程特点编制脚手\n架专项施工方案，并应经审批后实施。脚手架专项施工方案应包\n括下列主要内容：\n1 \n工程概况和编制依据；\n2 \n脚手架类型选择；\n3 所用材料、构配件类型及规格；\n4 \n结构与构造设计施工图；\n5 \n结构设计计算书；\n6 \n搭设、拆除施工计划；\n7 \n搭设、拆除技术要求；\n8 \n质量控制措施；\n9 \n安全控制措施；\n10 应急预案。",
+      "scenario_tags": [
+        "脚手架搭设",
+        "脚手架拆除",
+        "材料构配件",
+        "应急救援",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "坍塌"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "GB 55023 2022",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "GB 55023 2022",
+      "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/02_基本规定.pdf",
+      "standard_code": "GB-55023-2022",
+      "year": "2022",
+      "chapter_no": "02",
+      "chapter_title": "基本规定",
+      "title": "脚手架搭设和拆除作业以前，应根据工程特点编制脚手",
+      "asset_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/02_基本规定.pdf",
+      "content_hash": "bf138753b25a3c25607376be650deda4476d230ca55ecd689fbbbfd1b335ae56",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-130-2011::article::7.4.3",
+      "standard_name": "JGJ 130 2011",
+      "chapter": "07 施工",
+      "article_id": "7.4.3",
+      "text": "标准：JGJ 130 2011\n章节：07 施工\n编号：7.4.3\n正文：7.4.3 当脚手架拆至下部最后一根长立杆的高度（约6.5m）时，应先在适当位\n置搭设临时抛撑加固后，再拆除连墙件。 当单、双排脚手架采取分段、分立面\n拆除时，对不拆除的脚手架两端，应先按本规范第6.4.4 条、6.6.4 条、6.6.5 条的\n有关规定设置连墙件和横向斜撑加固。",
+      "scenario_tags": [
+        "脚手架搭设",
+        "脚手架拆除",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "坍塌"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ 130 2011",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 130 2011",
+      "source_path": "rag_data/rag_data/JGJ-130-2011/07_施工.pdf",
+      "standard_code": "JGJ-130-2011",
+      "year": "2011",
+      "chapter_no": "07",
+      "chapter_title": "施工",
+      "title": "当脚手架拆至下部最后一根长立杆的高度（约6.5m）时，应先在适当位",
+      "asset_path": "rag_data/rag_data/JGJ-130-2011/07_施工.pdf",
+      "content_hash": "b2087e2a636473b22c9fcd4629eb12cdbeb7525a888667e304b78888992403e3",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::GB-6095-2021::article::5.3.3.1",
+      "standard_name": "GB 6095 2021",
+      "chapter": "04 技术要求",
+      "article_id": "5.3.3.1",
+      "text": "标准：GB 6095 2021\n章节：04 技术要求\n编号：5.3.3.1\n正文：5.3.3.1 坠落悬挂用安全带应至少包含下列组成部分\n:\n可连接坠落悬挂用部件系带;\n的\n可连接系带与挂点装置或构筑物的安全绳及缓冲器、速差自控器、自锁器等中的种\n一;\n可连接安全带内各组成部分的环类零部件及连接器。",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "坠落防护"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "GB 6095 2021",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "GB 6095 2021",
+      "source_path": "rag_data/rag_data/GB 6095-2021/04_技术要求.pdf",
+      "standard_code": "GB-6095-2021",
+      "year": "2021",
+      "chapter_no": "04",
+      "chapter_title": "技术要求",
+      "title": "坠落悬挂用安全带应至少包含下列组成部分",
+      "asset_path": "rag_data/rag_data/GB 6095-2021/04_技术要求.pdf",
+      "content_hash": "72ec780dc2609e549b1e7f5463ec26101b739cb5e7fcaedfb0fabc44265a9388",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-01"
+      ]
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::GB-6095-2021::article::5.3.3.2",
+      "standard_name": "GB 6095 2021",
+      "chapter": "04 技术要求",
+      "article_id": "5.3.3.2",
+      "text": "标准：GB 6095 2021\n章节：04 技术要求\n编号：5.3.3.2\n正文：5.3.3.2 坠落悬挂用安全带的设计应至少符合下列要求\n:\n一坠落悬挂用带应为全身式系带;\n一\n系\n一系带应包含一个或多个坠落悬挂用连接点，\n一\n一系带连接点应位于使用者前胸或后背\n一;\n一当安全带中的坠落悬挂用零部件仅含坠落悬挂安全绳时,安全绳应具备能量吸收功能或与组\n一\n缓冲器一起使用\n;\n包含未展开缓冲器的坠落悬挂安全绳长度应小于或等于2\n一mi\n一\n当安全带可用于多个作业类别时,应符合相应类别的要求。",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "坠落防护"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "GB 6095 2021",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "GB 6095 2021",
+      "source_path": "rag_data/rag_data/GB 6095-2021/04_技术要求.pdf",
+      "standard_code": "GB-6095-2021",
+      "year": "2021",
+      "chapter_no": "04",
+      "chapter_title": "技术要求",
+      "title": "坠落悬挂用安全带的设计应至少符合下列要求",
+      "asset_path": "rag_data/rag_data/GB 6095-2021/04_技术要求.pdf",
+      "content_hash": "b0f87cbd0fffee0256b03d2eff546f052b534ab45b433cc30fa9813950ff54ae",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-01"
+      ]
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-80-2016::article::3.0.5",
+      "standard_name": "JGJ 80 2016",
+      "chapter": "03 基本规定",
+      "article_id": "3.0.5",
+      "text": "标准：JGJ 80 2016\n章节：03 基本规定\n编号：3.0.5\n正文：3.0.5 高处作业人员应根据作业的实际情况配备相应的高处作\n业安全防护用品，并应按规定正确佩戴和使用相应的安全防护用\n品、用具。",
+      "scenario_tags": [
+        "高处作业",
+        "个体防护装备"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ 80 2016",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 80 2016",
+      "source_path": "rag_data/rag_data/JGJ 80-2016/03_基本规定.pdf",
+      "standard_code": "JGJ-80-2016",
+      "year": "2016",
+      "chapter_no": "03",
+      "chapter_title": "基本规定",
+      "title": "高处作业人员应根据作业的实际情况配备相应的高处作",
+      "asset_path": "rag_data/rag_data/JGJ 80-2016/03_基本规定.pdf",
+      "content_hash": "d45ed624eb28a9816cadefd1b718dcc60d3e749dbd7f4d713b0bd4985fc4db98",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-01"
+      ]
+    }
+  ],
+  "case_evidence": [
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-05::summary",
+      "case_title": "佛冈汤塘G106国道沿线赤膊房整治工程工地“8·14”一般高处坠落事故调查报告 - 佛冈县政府门户网站",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "脚手架拆除",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "坍塌"
+      ],
+      "process": "2024年8月14日17时30分左右，工人张某某在外墙整治工程脚手架上行走过程中，未将安全带固定在锚固点上，且违规拆除了脚手架防护网并解开安全绳，不慎失足坠落至地面，坠落高度约7米，经抢救无效死亡。",
+      "consequences": "伤亡：1人死亡；直接经济损失：90万元",
+      "text": "案例：佛冈汤塘G106国道沿线赤膊房整治工程工地“8·14”一般高处坠落事故调查报告 - 佛冈县政府门户网站\n类型：高处坠落 | 日期：2024-08-14\n地点：广东省清远市佛冈县汤塘镇G106国道沿线赤膊房整治（外墙整治）工程工地\n经过：2024年8月14日17时30分左右，工人张某某在外墙整治工程脚手架上行走过程中，未将安全带固定在锚固点上，且违规拆除了脚手架防护网并解开安全绳，不慎失足坠落至地面，坠落高度约7米，经抢救无效死亡。\n伤亡：1人死亡 | 损失：90万元\n违反规范：《中华人民共和国安全生产法》《建设工程安全生产管理条例》\n来源：www.fogang.gov.cn",
+      "source": "www.fogang.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-05",
+      "title": "佛冈汤塘G106国道沿线赤膊房整治工程工地“8·14”一般高处坠落事故调查报告 - 佛冈县政府门户网站",
+      "location": "广东省清远市佛冈县汤塘镇G106国道沿线赤膊房整治（外墙整治）工程工地",
+      "related_standards": [
+        "《中华人民共和国安全生产法》",
+        "《建设工程安全生产管理条例》"
+      ],
+      "source_org": "www.fogang.gov.cn",
+      "source_date": "2024-08-14",
+      "source_url": "http://www.fogang.gov.cn/ywdt/gggs/tzgg/content/post_1990367.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "0aed4345514a720eae9b13a1f48875c725a35b389db864e6d921ee6715c66534",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-07::summary",
+      "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "脚手架搭设",
+        "脚手架拆除",
+        "检查验收",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "坍塌"
+      ],
+      "process": "事故工程为“微棠公寓塘水围二区48#-2（48B）装修改造工程”，建筑面积约3441平方米，外架搭设高度42米，事发时处于收尾阶段。作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。",
+      "consequences": "伤亡：1人死亡；直接经济损失：约191万元",
+      "text": "案例：民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故\n类型：高处坠落 | 日期：2023-09-20\n地点：深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地\n经过：事故工程为“微棠公寓塘水围二区48#-2（48B）装修改造工程”，建筑面积约3441平方米，外架搭设高度42米，事发时处于收尾阶段。作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。\n伤亡：1人死亡 | 损失：约191万元\n违反规范：《施工脚手架通用规范》、《中华人民共和国安全生产法》\n来源：www.szlhq.gov.cn",
+      "source": "www.szlhq.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-07",
+      "title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+      "location": "深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地",
+      "related_standards": [
+        "《施工脚手架通用规范》",
+        "《中华人民共和国安全生产法》"
+      ],
+      "source_org": "www.szlhq.gov.cn",
+      "source_date": "2023-09-20",
+      "source_url": "https://www.szlhq.gov.cn/zdlyxxgk/aqsc/dcbg/content/post_11163272.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "c6b483421d8b238ee0e830b8448cb34a62d0ce08115511727fe41a0c98809bf2",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-07::cause",
+      "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "脚手架搭设",
+        "脚手架拆除",
+        "检查验收",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "坍塌"
+      ],
+      "causes": "直接原因：芦理安未按规定顺序拆除脚手架，导致脚手架端部失去联结固定点而部分坠落，芦理安随之坠落死亡。；间接原因：中邑建设公司将脚手架工程劳务发包给不具备脚手架劳务分包资质的单位；方圆监理公司履行监理职责不到位，未审核发现俊伟脚手架公司不具备劳务施工资质问题；中邑建设公司法定代表人吴本军未有效督促检查本单位工程项目安全生产工作，消除生产安全事故隐患。涉事装修工程项目经理汤文斌未组织落实《脚手架/防护棚搭设拆除专项安全方案》，未及时消除工人不按规定顺序拆除脚手架的事故隐患。",
+      "text": "案例：民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故（原因）\n直接原因：芦理安未按规定顺序拆除脚手架，导致脚手架端部失去联结固定点而部分坠落，芦理安随之坠落死亡。\n间接原因：中邑建设公司将脚手架工程劳务发包给不具备脚手架劳务分包资质的单位；方圆监理公司履行监理职责不到位，未审核发现俊伟脚手架公司不具备劳务施工资质问题；中邑建设公司法定代表人吴本军未有效督促检查本单位工程项目安全生产工作，消除生产安全事故隐患。涉事装修工程项目经理汤文斌未组织落实《脚手架/防护棚搭设拆除专项安全方案》，未及时消除工人不按规定顺序拆除脚手架的事故隐患。",
+      "source": "www.szlhq.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_cause",
+      "case_id": "case-07",
+      "title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+      "location": "深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地",
+      "related_standards": [
+        "《施工脚手架通用规范》",
+        "《中华人民共和国安全生产法》"
+      ],
+      "source_org": "www.szlhq.gov.cn",
+      "source_date": "2023-09-20",
+      "source_url": "https://www.szlhq.gov.cn/zdlyxxgk/aqsc/dcbg/content/post_11163272.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "943f81bb6b8b292f35d6c1aa39365fb1f67a8f6a23f22eb3e2b88887c35e8962",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-11::summary",
+      "case_title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "检查验收",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "process": "2023年1月5日16时30分左右，湖北某学院新校区一期工程13号楼室内装修现场，劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。",
+      "consequences": "伤亡：1人死亡；直接经济损失：151万元",
+      "text": "案例：湖北某学院新校区“1·5”  一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2023-01-05\n地点：湖北省黄石市黄石经济技术开发区·铁山区汪仁镇湖北某学院新校区一期工程13号楼\n经过：2023年1月5日16时30分左右，湖北某学院新校区一期工程13号楼室内装修现场，劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。\n伤亡：1人死亡 | 损失：151万元\n违反规范：《中华人民共和国安全生产法》\n来源：jyh.huangshi.gov.cn",
+      "source": "jyh.huangshi.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-11",
+      "title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+      "location": "湖北省黄石市黄石经济技术开发区·铁山区汪仁镇湖北某学院新校区一期工程13号楼",
+      "related_standards": [
+        "《中华人民共和国安全生产法》"
+      ],
+      "source_org": "jyh.huangshi.gov.cn",
+      "source_date": "2023-01-05",
+      "source_url": "http://jyh.huangshi.gov.cn/pub/hsjjjskfq/xxgk/fdzdgknr/zdmsxx/aqsc/202604/t20260420_1322092.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "8f285a1543a3e1004343b88a5d9384f4dc32887efc9c9ab3d629301152deb021",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-01::summary",
+      "case_title": "四川佳铭轩建筑工程有限公司“9·2”一般高处坠落事故调查报告_通江县人民政府",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "检查验收"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "process": "2023年9月2日8时30分许，工人余某兵在赤江大桥3#桥墩自制吊篮内进行桥墩表面修饰作业时，吊篮右侧上端固定点脱落，吊篮随之下坠，余某兵未正确使用安全带，被抛出吊篮坠落至承台上，经抢救无效死亡。",
+      "consequences": "伤亡：1人死亡；直接经济损失：100万元",
+      "text": "案例：四川佳铭轩建筑工程有限公司“9·2”一般高处坠落事故调查报告_通江县人民政府\n类型：高处坠落 | 日期：2023-09-02\n地点：四川省巴中市通江县诺江镇赤江村赤江索桥工程3#墩\n经过：2023年9月2日8时30分许，工人余某兵在赤江大桥3#桥墩自制吊篮内进行桥墩表面修饰作业时，吊篮右侧上端固定点脱落，吊篮随之下坠，余某兵未正确使用安全带，被抛出吊篮坠落至承台上，经抢救无效死亡。\n伤亡：1人死亡 | 损失：100万元\n违反规范：JGJ 80-2016 第3.0.5条；GB 6095-2021 第5.3.3条、第5.3.3.1条、第5.3.3.2条；JGJ 202-2010 第5.5.1条\n来源：www.tjxzf.gov.cn",
+      "source": "www.tjxzf.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-01",
+      "title": "四川佳铭轩建筑工程有限公司“9·2”一般高处坠落事故调查报告_通江县人民政府",
+      "location": "四川省巴中市通江县诺江镇赤江村赤江索桥工程3#墩",
+      "related_standards": [
+        "JGJ-80-2016:3.0.5",
+        "GB-6095-2021:5.3.3",
+        "GB-6095-2021:5.3.3.1",
+        "GB-6095-2021:5.3.3.2",
+        "JGJ-202-2010:5.5.1"
+      ],
+      "source_org": "www.tjxzf.gov.cn",
+      "source_date": "2023-09-02",
+      "source_url": "https://www.tjxzf.gov.cn/public/6599551/14060963.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "1886bb1e0142b5a9162ff4e0bb09a7afb0f06f3db3d834c8e91a79425baad79b",
+      "pipeline_version": "case_chunker_v1"
+    }
+  ],
+  "norm_evidence_ids": [
+    "norm::JGJ-130-2011::article::7.4.1",
+    "norm::GB-55023-2022::article::5.4.2",
+    "norm::JGJ-130-2011::article::7.4.2",
+    "norm::GB-55023-2022::article::2.0.3",
+    "norm::JGJ-130-2011::article::7.4.3",
+    "norm::GB-6095-2021::article::5.3.3.1",
+    "norm::GB-6095-2021::article::5.3.3.2",
+    "norm::JGJ-80-2016::article::3.0.5"
+  ],
+  "case_evidence_ids": [
+    "case::case-05::summary",
+    "case::case-07::summary",
+    "case::case-07::cause",
+    "case::case-11::summary",
+    "case::case-01::summary"
+  ],
+  "linked_norm_evidence_ids": [
+    "norm::GB-6095-2021::article::5.3.3.1",
+    "norm::GB-6095-2021::article::5.3.3.2",
+    "norm::JGJ-80-2016::article::3.0.5"
+  ],
+  "case_index_available": true,
+  "evidence_diagnostics": {
+    "retrieval_mode": "rrf_hybrid",
+    "norm_count": 8,
+    "case_count": 5,
+    "norm_evidence_ids": [
+      "norm::JGJ-130-2011::article::7.4.1",
+      "norm::GB-55023-2022::article::5.4.2",
+      "norm::JGJ-130-2011::article::7.4.2",
+      "norm::GB-55023-2022::article::2.0.3",
+      "norm::JGJ-130-2011::article::7.4.3",
+      "norm::GB-6095-2021::article::5.3.3.1",
+      "norm::GB-6095-2021::article::5.3.3.2",
+      "norm::JGJ-80-2016::article::3.0.5"
+    ],
+    "case_evidence_ids": [
+      "case::case-05::summary",
+      "case::case-07::summary",
+      "case::case-07::cause",
+      "case::case-11::summary",
+      "case::case-01::summary"
+    ],
+    "case_index_available": true,
+    "linked_norm_count": 3
+  },
+  "final_qa_output": {
+    "answer_text": "脚手架拆除时设置警戒区是为了防止坠落物砸伤地面人员，避免无关人员进入危险区域。拆除过程中架体可能突然失稳或部件掉落，警戒区能确保人员安全撤离。这是高处作业安全的基本要求，必须严格执行。",
+    "cited_norms": [
+      {
+        "chunk_id": "norm::JGJ-130-2011::article::7.4.1",
+        "standard_code": "JGJ-130-2011",
+        "article_id": "7.4.1",
+        "title": "脚手架拆除应按专项方案施工，拆除前应做好下列准备工作：",
+        "content": "拆除前应对施工人员进行交底；应清除脚手架上杂物及地面障碍物",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": []
+      }
+    ],
+    "cited_cases": [
+      {
+        "chunk_id": "case::case-05::summary",
+        "case_id": "case-05",
+        "case_title": "佛冈汤塘G106国道沿线赤膊房整治工程工地“8·14”一般高处坠落事故调查报告 - 佛冈县政府门户网站",
+        "summary": "案例：佛冈汤塘G106国道沿线赤膊房整治工程工地“8·14”一般高处坠落事故调查报告 - 佛冈县政府门户网站\n类型：高处坠落 | 日期：2024-08-14\n地点：广东省清远市佛冈县汤塘镇G106国道沿线赤膊房整治（外墙整治）工程工地\n经过：2024年8月14日17时30分左右，工人张某某在外墙整治工程脚手架上行走过程中，未将安全带固定在锚固点上，且违规拆除了脚手架防护网并解开安全绳，不慎失足坠落至地面，坠落高度约7米，经抢救无效死亡。\n伤亡：1人死亡 | 损失：90万元\n违反规范：《中华人民共和国安全生产法》《建设工程安全生产管理条例》\n来源：www.fogang.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：90万元",
+        "lesson": "",
+        "source": "www.fogang.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-07::summary",
+        "case_id": "case-07",
+        "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+        "summary": "案例：民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故\n类型：高处坠落 | 日期：2023-09-20\n地点：深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地\n经过：事故工程为“微棠公寓塘水围二区48#-2（48B）装修改造工程”，建筑面积约3441平方米，外架搭设高度42米，事发时处于收尾阶段。作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。\n伤亡：1人死亡 | 损失：约191万元\n违反规范：《施工脚手架通用规范》、《中华人民共和国安全生产法》\n来源：www.szlhq.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：约191万元",
+        "lesson": "",
+        "source": "www.szlhq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-07::cause",
+        "case_id": "case-07",
+        "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+        "summary": "案例：民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故（原因）\n直接原因：芦理安未按规定顺序拆除脚手架，导致脚手架端部失去联结固定点而部分坠落，芦理安随之坠落死亡。\n间接原因：中邑建设公司将脚手架工程劳务发包给不具备脚手架劳务分包资质的单位；方圆监理公司履行监理职责不到位，未审核发现俊伟脚手架公司不具备劳务施工资质问题；中邑建设公司法定代表人吴本军未有效督促检查本单位工程项目安全生产工作，消除生产安全事故隐患。涉事装修工程项目经理汤文斌未组织落实《脚手架/防护棚搭设拆除专项安全方案》，未及时消除工人不按规定顺序拆除脚手架的事故隐患。",
+        "consequence": "",
+        "lesson": "",
+        "source": "www.szlhq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-11::summary",
+        "case_id": "case-11",
+        "case_title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+        "summary": "案例：湖北某学院新校区“1·5”  一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2023-01-05\n地点：湖北省黄石市黄石经济技术开发区·铁山区汪仁镇湖北某学院新校区一期工程13号楼\n经过：2023年1月5日16时30分左右，湖北某学院新校区一期工程13号楼室内装修现场，劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。\n伤亡：1人死亡 | 损失：151万元\n违反规范：《中华人民共和国安全生产法》\n来源：jyh.huangshi.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：151万元",
+        "lesson": "",
+        "source": "jyh.huangshi.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-01::summary",
+        "case_id": "case-01",
+        "case_title": "四川佳铭轩建筑工程有限公司“9·2”一般高处坠落事故调查报告_通江县人民政府",
+        "summary": "案例：四川佳铭轩建筑工程有限公司“9·2”一般高处坠落事故调查报告_通江县人民政府\n类型：高处坠落 | 日期：2023-09-02\n地点：四川省巴中市通江县诺江镇赤江村赤江索桥工程3#墩\n经过：2023年9月2日8时30分许，工人余某兵在赤江大桥3#桥墩自制吊篮内进行桥墩表面修饰作业时，吊篮右侧上端固定点脱落，吊篮随之下坠，余某兵未正确使用安全带，被抛出吊篮坠落至承台上，经抢救无效死亡。\n伤亡：1人死亡 | 损失：100万元\n违反规范：JGJ 80-2016 第3.0.5条；GB 6095-2021 第5.3.3条、第5.3.3.1条、第5.3.3.2条；JGJ 202-2010 第5.5.1条\n来源：www.tjxzf.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：100万元",
+        "lesson": "",
+        "source": "www.tjxzf.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      }
+    ],
+    "confidence": "low",
+    "evidence_gap": ""
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "topic": "临时用电触电预防培训",
+  "training_scenario": "在夏季暴雨后的施工现场，电工小李正准备更换3号楼配电箱内的熔断器。现场刚完成基坑回填，地面泥泞湿滑，雨水混合泥浆导致局部积水。配电箱安装在露天脚手架外侧，距地面2.5米，周围有临时围挡，但围挡上缠绕着破损的绝缘胶带。电工携带的手电筒电池仓盖缺失，线路裸露。配电箱接地线连接松动，且箱门未上锁。附近正在运行的塔吊电缆因风吹摆动，偶尔触碰围挡。电工准备使用一根铝制梯子靠近配电箱作业。",
+  "hazards_identified": [
+    "配电箱漏电触电（环境潮湿、接地松动、箱体未锁）",
+    "高处临边触电（露天脚手架作业、无防雨绝缘措施）",
+    "湿滑地面坠落（泥泞积水、铝梯作业）"
+  ],
+  "norm_queries": [
+    "JGJ 46 施工现场临时用电规范 配电箱 漏电保护器 潮湿环境 接地电阻 设置要求",
+    "JGJ 80 建筑施工高处作业安全技术规范 高处临边作业 绝缘工具 潮湿环境 防触电 防护要求",
+    "JGJ 80 建筑施工高处作业安全技术规范 临边作业 脚手架 作业平台 防滑措施 防护栏杆 设置要求",
+    "JGJ 46 施工现场临时用电规范 手持电动工具 绝缘性能 检查 潮湿环境 使用规定 防护遮栏",
+    "GB 50325 建筑施工安全检查标准 配电箱 安装高度 防护遮栏 防雨措施 临时用电 施工规范",
+    "JGJ 46 施工现场临时用电规范 配电箱 安装高度 防护遮栏 防雨措施 潮湿环境 施工规范",
+    "JGJ 80 建筑施工高处作业安全技术规范 高处作业 绝缘工具 使用要求 潮湿环境 防触电 安全规程",
+    "JGJ 46 施工现场临时用电规范 配电箱 漏电保护器 设置要求 潮湿环境 接地电阻 施工规范",
+    "JGJ 80 建筑施工高处作业安全技术规范 高处作业 绝缘工具 使用要求 潮湿环境 防触电 安全规程",
+    "JGJ 46 施工现场临时用电规范 配电箱 安装高度 防护遮栏 防雨措施 施工规范"
+  ],
+  "case_queries": [
+    "配电箱 漏电 触电 死亡 潮湿环境 接地不良 事故",
+    "高处作业 触电 铝梯 湿滑 坠落 事故",
+    "临时用电 配电箱 未上锁 触电 事故",
+    "脚手架 露天作业 触电 雷雨后 事故",
+    "手持工具 绝缘破损 触电 事故"
+  ],
+  "norm_evidence": [
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-T46-2024::article::4.1.16",
+      "standard_name": "JGJ T46 2024",
+      "chapter": "01 建筑与市政工程施工现场临时用电安全技术标准",
+      "article_id": "4.1.16",
+      "text": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：4.1.16\n正文：4.1.16 配电、开关箱外形结构应具有防，防休措，单独\n箱施\n为配电箱、开关箱装设防雨棚〈盖时，防璀雨机的盖)宜采用绝\n缘材料制作。",
+      "scenario_tags": [
+        "材料构配件",
+        "临时用电",
+        "配电箱"
+      ],
+      "hazard_tags": [
+        "触电"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ T46 2024",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ T46 2024",
+      "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+      "standard_code": "JGJ-T46-2024",
+      "year": "2024",
+      "chapter_no": "01",
+      "chapter_title": "建筑与市政工程施工现场临时用电安全技术标准",
+      "title": "配电、开关箱外形结构应具有防，防休措，单独",
+      "asset_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+      "content_hash": "3036b566a88b16fdb90b19d46310220b878ec58b75c7fbebcc1cb97cfa5697cd",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-80-2016::article::1.0.2",
+      "standard_name": "JGJ 80 2016",
+      "chapter": "01 总则",
+      "article_id": "1.0.2",
+      "text": "标准：JGJ 80 2016\n章节：01 总则\n编号：1.0.2\n正文：1.0.2 \n本规范适用于建筑工程施工高处作业中的临边、洞口、\n攀登、悬空、操作平台、交叉作业及安全网搭设等项作业。\n本规范亦适用于其他高处作业的各类洞、坑、沟、槽等部位\n的施工。",
+      "scenario_tags": [
+        "高处作业",
+        "临边作业",
+        "洞口作业",
+        "攀登作业",
+        "悬空作业",
+        "操作平台",
+        "交叉作业",
+        "安全网",
+        "脚手架搭设"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "坍塌"
+      ],
+      "requirement_type": "一般要求",
+      "source": "JGJ 80 2016",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 80 2016",
+      "source_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf",
+      "standard_code": "JGJ-80-2016",
+      "year": "2016",
+      "chapter_no": "01",
+      "chapter_title": "总则",
+      "title": "本规范适用于建筑工程施工高处作业中的临边、洞口、",
+      "asset_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf",
+      "content_hash": "6a99c04dff8f59701afb9c278d449d1513a869541bd5dd34d0f55ab59a30a29e",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-80-2016::article::1.0.1",
+      "standard_name": "JGJ 80 2016",
+      "chapter": "01 总则",
+      "article_id": "1.0.1",
+      "text": "标准：JGJ 80 2016\n章节：01 总则\n编号：1.0.1\n正文：1.0.1 \n为规范建筑施工高处作业及其管理，做到防护安全、技\n术先进、经济合理，制定本规范。",
+      "scenario_tags": [
+        "高处作业"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "requirement_type": "一般要求",
+      "source": "JGJ 80 2016",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 80 2016",
+      "source_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf",
+      "standard_code": "JGJ-80-2016",
+      "year": "2016",
+      "chapter_no": "01",
+      "chapter_title": "总则",
+      "title": "为规范建筑施工高处作业及其管理，做到防护安全、技",
+      "asset_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf",
+      "content_hash": "b1bb5b5485815533a2f19bca15fad4f3ce1246a69c3ef3285aa42e537678b299",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-80-2016::article::3.0.1",
+      "standard_name": "JGJ 80 2016",
+      "chapter": "03 基本规定",
+      "article_id": "3.0.1",
+      "text": "标准：JGJ 80 2016\n章节：03 基本规定\n编号：3.0.1\n正文：3.0.1 \n建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、\n操作平台、交叉作业及安全网搭设的，应在施工组织设计或施工\n方案中制定高处作业安全技术措施。",
+      "scenario_tags": [
+        "高处作业",
+        "临边作业",
+        "洞口作业",
+        "攀登作业",
+        "悬空作业",
+        "操作平台",
+        "交叉作业",
+        "安全网",
+        "脚手架搭设"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "坍塌"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ 80 2016",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 80 2016",
+      "source_path": "rag_data/rag_data/JGJ 80-2016/03_基本规定.pdf",
+      "standard_code": "JGJ-80-2016",
+      "year": "2016",
+      "chapter_no": "03",
+      "chapter_title": "基本规定",
+      "title": "建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、",
+      "asset_path": "rag_data/rag_data/JGJ 80-2016/03_基本规定.pdf",
+      "content_hash": "d25bd2e1eb174d67838dbd22038598c37dcc7952ab994e8a21743d5b3e083e09",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-59-2011::article::3.13.1",
+      "standard_name": "JGJ 59 2011",
+      "chapter": "01 建筑施工安全检查标准",
+      "article_id": "3.13.1",
+      "text": "标准：JGJ 59 2011\n章节：01 建筑施工安全检查标准\n编号：3.13.1\n正文：3.13.1 高处作业检查评定应符合现行国家标准《安全网》\nGB 5725\n、《安全帽》GB 2118\n、《安全带》GB 6095和现行行业标\n准《建筑施工高处作业安全技术规范》JGJ80\n的规定。",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "安全网",
+        "检查验收",
+        "安全帽"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ 59 2011",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ 59 2011",
+      "source_path": "rag_data/rag_data/JGJ-59-2011/01_建筑施工安全检查标准.pdf",
+      "standard_code": "JGJ-59-2011",
+      "year": "2011",
+      "chapter_no": "01",
+      "chapter_title": "建筑施工安全检查标准",
+      "title": "高处作业检查评定应符合现行国家标准《安全网》",
+      "asset_path": "rag_data/rag_data/JGJ-59-2011/01_建筑施工安全检查标准.pdf",
+      "content_hash": "4791c226ec4d61c9deb30207d558a89eb5d3a6a46a1c80a99ed52e07b6b625ec",
+      "pipeline_version": "norm_chunker_v2"
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::GB-51210-2016::article::11.2.10",
+      "standard_name": "GB 51210 2016",
+      "chapter": "11 安全管理",
+      "article_id": "11.2.10",
+      "text": "标准：GB 51210 2016\n章节：11 安全管理\n编号：11.2.10\n正文：11.2.10 脚手架与架空输电线路的安全距离、工地临时用电线\n路架设及脚手架接地、防雷措施，应按现行行业标准《施工现场\n临时用电安全技术规范》JG] 46执行。",
+      "scenario_tags": [
+        "临时用电",
+        "接地接零",
+        "安全管理",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "触电",
+        "管理缺陷"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "GB 51210 2016",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "GB 51210 2016",
+      "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-51210-2016/11_安全管理.pdf",
+      "standard_code": "GB-51210-2016",
+      "year": "2016",
+      "chapter_no": "11",
+      "chapter_title": "安全管理",
+      "title": "脚手架与架空输电线路的安全距离、工地临时用电线",
+      "asset_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-51210-2016/11_安全管理.pdf",
+      "content_hash": "4976278318d0c06f2f8797e7116ea8c924d3cf3e8d3650b5e1403700ff254d22",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-22"
+      ]
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::GB-55023-2022::article::5.1.3",
+      "standard_name": "GB 55023 2022",
+      "chapter": "05 搭设、使用与拆除",
+      "article_id": "5.1.3",
+      "text": "标准：GB 55023 2022\n章节：05 搭设、使用与拆除\n编号：5.1.3\n正文：5.1.3 \n当在脚手架上架设临时施工用电线路时，应有绝缘措施，\n操作人员应穿绝缘防滑鞋；脚手架与架空输电线路之间应设有安\n全距离，并应设置接地、防雷设施。",
+      "scenario_tags": [
+        "脚手架搭设",
+        "脚手架拆除",
+        "接地接零",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "触电",
+        "坍塌"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "GB 55023 2022",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "GB 55023 2022",
+      "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/05_搭设、使用与拆除.pdf",
+      "standard_code": "GB-55023-2022",
+      "year": "2022",
+      "chapter_no": "05",
+      "chapter_title": "搭设、使用与拆除",
+      "title": "当在脚手架上架设临时施工用电线路时，应有绝缘措施，",
+      "asset_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/05_搭设、使用与拆除.pdf",
+      "content_hash": "20afa9bf57d028b96df4d4eca857dabdb56b82f0a02e2882ea5e82abfb1a9510",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-22"
+      ]
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::GB-50194-2014::article::7.5.4",
+      "standard_name": "GB 50194 2014",
+      "chapter": "07 配电线路",
+      "article_id": "7.5.4",
+      "text": "标准：GB 50194 2014\n章节：07 配电线路\n编号：7.5.4\n正文：7.5.4 \n当施工现场道路设施等与外电架空线路的最小距离达不\n到本规范第7.5.3条中的规定时，应采取隔离防护措施，防护设施\n的搭设和拆除应符合下列规定：\n1 \n架设防护设施时，应采用线路暂时停电或其他可靠的安全\n技术措施，并应有电气专业技术人员和专职安全火员监护；\n2 \n防护设施与外电架空线路之间的安全距离不应小于表\n7.5.4所列数值；\n< ' ' -\n类\n离\n且\n., . \n¢ \n.. \n国、，i\n’ \n' . ,. \n. \n,., \nt \n、’，飞\n‘· . \n' ,_.,, \nζ』，；，，\"·., \n., \n’‘ \n, \n. ,, \n，二c\n• \n• \n~ \n~' \n；、\n’1 ‘ \n~ ’ \n~' -\n飞主\nd’ u • \n. ; \n也－.\n' ，咱\n、\n. \n‘’ \n~· \n、\n·, ” \n< \n、气。\n' \n，气, \n’ \n\"' \n. \n. \n·旱\n• \n, \n’队\n, \n; \n‘、~\n量\n.. \n、\n\n3 \n防护设施应坚固、稳定，且对外电架空线路的隔离防护等\n级不应低于本规范附录A外壳防护等级（IP代码）IP2元\n4 应悬挂醒目的警告标识。",
+      "scenario_tags": [
+        "脚手架搭设",
+        "脚手架拆除",
+        "临时用电",
+        "配电箱",
+        "漏电保护",
+        "接地接零"
+      ],
+      "hazard_tags": [
+        "触电",
+        "坍塌",
+        "电气火灾"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "GB 50194 2014",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "GB 50194 2014",
+      "source_path": "rag_data/rag_data/GB-50194-2014/07_配电线路.pdf",
+      "standard_code": "GB-50194-2014",
+      "year": "2014",
+      "chapter_no": "07",
+      "chapter_title": "配电线路",
+      "title": "当施工现场道路设施等与外电架空线路的最小距离达不",
+      "asset_path": "rag_data/rag_data/GB-50194-2014/07_配电线路.pdf",
+      "content_hash": "dfa9dc80e906ae4cd76df465582fc16ff064bb3c19bdebe71ab6a63992b37412",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-22"
+      ]
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-T46-2024::article::8.1.6",
+      "standard_name": "JGJ T46 2024",
+      "chapter": "01 建筑与市政工程施工现场临时用电安全技术标准",
+      "article_id": "8.1.6",
+      "text": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：8.1.6\n正文：8.1.6 当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定\n不能实现，应采取绝缘隔离防护措施，并应悬挂醒导的警告标\n时\n识。架设防护设施，应经有关部门批准，采用线路暂时停电或\n时\n其他可靠的安全技术措施，并应有电气工程技术火员和专职安全\n人员监。防护设施与外电线路之间的安全外离不应小于\n表8.1.6所护列数值。防护设施应坚固、稳定4U对外电线路的隔\n离防护应达到IP30级。\n表8.1.6防护设施与外电线路之间的最小安全距离\n[TSTREETaRE",
+      "scenario_tags": [
+        "临时用电"
+      ],
+      "hazard_tags": [
+        "触电"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ T46 2024",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ T46 2024",
+      "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+      "standard_code": "JGJ-T46-2024",
+      "year": "2024",
+      "chapter_no": "01",
+      "chapter_title": "建筑与市政工程施工现场临时用电安全技术标准",
+      "title": "当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定",
+      "asset_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+      "content_hash": "d38c5bf4e8851e7f713d1e33dcdfb7e756784d42e1119e22d503ae193c37aba9",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-22"
+      ]
+    },
+    {
+      "doc_type": "norm",
+      "chunk_id": "norm::JGJ-T46-2024::article::8.1.2",
+      "standard_name": "JGJ T46 2024",
+      "chapter": "01 建筑与市政工程施工现场临时用电安全技术标准",
+      "article_id": "8.1.2",
+      "text": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：8.1.2\n正文：8.1.2 在施工程〈含脚手架)的周近写外电架。空线路的边线之\n间的最小安全操作距离应符合表8.下2规定。\n表8.1.2在施工程(含脚手锅)-的周边与架空线路的\n边线之间的最小安全操作距离\n注,上下脚手架的斜道不宰设在有外电线路的一侧。",
+      "scenario_tags": [
+        "临时用电",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "触电"
+      ],
+      "requirement_type": "强制性要求",
+      "source": "JGJ T46 2024",
+      "schema_version": "norm_v1",
+      "chunk_kind": "article",
+      "source_name": "JGJ T46 2024",
+      "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+      "standard_code": "JGJ-T46-2024",
+      "year": "2024",
+      "chapter_no": "01",
+      "chapter_title": "建筑与市政工程施工现场临时用电安全技术标准",
+      "title": "在施工程〈含脚手架)的周近写外电架。空线路的边线之",
+      "asset_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+      "content_hash": "6c68e21d9b05e147fbc9d271ba1d76f6604db999762eedefa8a41997906cb7fe",
+      "pipeline_version": "norm_chunker_v2",
+      "linked_from_case": [
+        "case-22"
+      ]
+    }
+  ],
+  "case_evidence": [
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-22::summary",
+      "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+      "accident_type": "触电",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "脚手架搭设",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "触电",
+        "坍塌"
+      ],
+      "process": "2025年9月18日上午7时30分，三名工人开始脚手架搭设作业。9时50分许，地面工人将6米钢管向上传递至脚手架上方作业人员，7层西北角作业人员李某恒在摆放钢管时，钢管进入西侧10kV高压线放电区，李某恒受电击后从7层约10米高处坠落，经抢救无效死亡。事故后钢管遗留在7层脚手架上并可见黑色烧焦点，高压线边导线与脚手架最外侧水平间距约2.58米。",
+      "consequences": "伤亡：1人死亡；直接经济损失：约140万元",
+      "text": "案例：正蓝旗居家宾馆“9·18”触电事故\n类型：触电 | 日期：2025-09-18\n地点：内蒙古正蓝旗桑根达来镇居家宾馆施工现场\n经过：2025年9月18日上午7时30分，三名工人开始脚手架搭设作业。9时50分许，地面工人将6米钢管向上传递至脚手架上方作业人员，7层西北角作业人员李某恒在摆放钢管时，钢管进入西侧10kV高压线放电区，李某恒受电击后从7层约10米高处坠落，经抢救无效死亡。事故后钢管遗留在7层脚手架上并可见黑色烧焦点，高压线边导线与脚手架最外侧水平间距约2.58米。\n伤亡：1人死亡 | 损失：约140万元\n违反规范：JGJ/T 46-2024 第8.1.2条、第8.1.6条；GB 50194-2014 第7.5.4条；GB 51210-2016 第11.2.10条；GB 55023-2022 第5.1.3条\n来源：正蓝旗应急管理局",
+      "source": "正蓝旗应急管理局",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-22",
+      "title": "正蓝旗居家宾馆“9·18”触电事故",
+      "location": "内蒙古正蓝旗桑根达来镇居家宾馆施工现场",
+      "related_standards": [
+        "JGJ-T46-2024:8.1.2",
+        "JGJ-T46-2024:8.1.6",
+        "GB-50194-2014:7.5.4",
+        "GB-51210-2016:11.2.10",
+        "GB-55023-2022:5.1.3"
+      ],
+      "source_org": "正蓝旗应急管理局",
+      "source_date": "2025-09-18",
+      "source_url": "https://www.zlq.gov.cn/zlq/dtxw/tzgg/tzgg/2025120815390214874/index.shtml",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "a96a20916ffeb8919a048999fc91dd3867f818b791ae33e79abd92a8db346f5b",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-22::cause",
+      "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+      "accident_type": "触电",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "脚手架搭设",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "触电",
+        "坍塌"
+      ],
+      "causes": "直接原因：作业人员未充分识别高压线触电风险，在高处脚手架上传递6米钢管，钢管进入高压电击穿范围；现场未采取断电或隔离措施，未设置安全防护网，作业人员未佩戴安全帽和安全带。；间接原因：宾馆经营者将工程违规发包给无资质个人，未签订安全管理协议，未向电力部门申请断电或采取隔离措施；承揽人以个人名义承揽工程，雇佣无证人员搭设脚手架，未配备安全管理人员，未建立安全生产管理制度和操作规程，未编制脚手架搭设专项施工方案；相关属地和行业监管责任落实不到位。",
+      "text": "案例：正蓝旗居家宾馆“9·18”触电事故（原因）\n直接原因：作业人员未充分识别高压线触电风险，在高处脚手架上传递6米钢管，钢管进入高压电击穿范围；现场未采取断电或隔离措施，未设置安全防护网，作业人员未佩戴安全帽和安全带。\n间接原因：宾馆经营者将工程违规发包给无资质个人，未签订安全管理协议，未向电力部门申请断电或采取隔离措施；承揽人以个人名义承揽工程，雇佣无证人员搭设脚手架，未配备安全管理人员，未建立安全生产管理制度和操作规程，未编制脚手架搭设专项施工方案；相关属地和行业监管责任落实不到位。",
+      "source": "正蓝旗应急管理局",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_cause",
+      "case_id": "case-22",
+      "title": "正蓝旗居家宾馆“9·18”触电事故",
+      "location": "内蒙古正蓝旗桑根达来镇居家宾馆施工现场",
+      "related_standards": [
+        "JGJ-T46-2024:8.1.2",
+        "JGJ-T46-2024:8.1.6",
+        "GB-50194-2014:7.5.4",
+        "GB-51210-2016:11.2.10",
+        "GB-55023-2022:5.1.3"
+      ],
+      "source_org": "正蓝旗应急管理局",
+      "source_date": "2025-09-18",
+      "source_url": "https://www.zlq.gov.cn/zlq/dtxw/tzgg/tzgg/2025120815390214874/index.shtml",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "34761e51f32767e0a6b905700cde76139541ffbd91020bdc37533090c8f65dd5",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-07::summary",
+      "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "脚手架搭设",
+        "脚手架拆除",
+        "检查验收",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "坍塌"
+      ],
+      "process": "事故工程为“微棠公寓塘水围二区48#-2（48B）装修改造工程”，建筑面积约3441平方米，外架搭设高度42米，事发时处于收尾阶段。作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。",
+      "consequences": "伤亡：1人死亡；直接经济损失：约191万元",
+      "text": "案例：民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故\n类型：高处坠落 | 日期：2023-09-20\n地点：深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地\n经过：事故工程为“微棠公寓塘水围二区48#-2（48B）装修改造工程”，建筑面积约3441平方米，外架搭设高度42米，事发时处于收尾阶段。作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。\n伤亡：1人死亡 | 损失：约191万元\n违反规范：《施工脚手架通用规范》、《中华人民共和国安全生产法》\n来源：www.szlhq.gov.cn",
+      "source": "www.szlhq.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-07",
+      "title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+      "location": "深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地",
+      "related_standards": [
+        "《施工脚手架通用规范》",
+        "《中华人民共和国安全生产法》"
+      ],
+      "source_org": "www.szlhq.gov.cn",
+      "source_date": "2023-09-20",
+      "source_url": "https://www.szlhq.gov.cn/zdlyxxgk/aqsc/dcbg/content/post_11163272.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "c6b483421d8b238ee0e830b8448cb34a62d0ce08115511727fe41a0c98809bf2",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-11::summary",
+      "case_title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "检查验收",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落"
+      ],
+      "process": "2023年1月5日16时30分左右，湖北某学院新校区一期工程13号楼室内装修现场，劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。",
+      "consequences": "伤亡：1人死亡；直接经济损失：151万元",
+      "text": "案例：湖北某学院新校区“1·5”  一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2023-01-05\n地点：湖北省黄石市黄石经济技术开发区·铁山区汪仁镇湖北某学院新校区一期工程13号楼\n经过：2023年1月5日16时30分左右，湖北某学院新校区一期工程13号楼室内装修现场，劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。\n伤亡：1人死亡 | 损失：151万元\n违反规范：《中华人民共和国安全生产法》\n来源：jyh.huangshi.gov.cn",
+      "source": "jyh.huangshi.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-11",
+      "title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+      "location": "湖北省黄石市黄石经济技术开发区·铁山区汪仁镇湖北某学院新校区一期工程13号楼",
+      "related_standards": [
+        "《中华人民共和国安全生产法》"
+      ],
+      "source_org": "jyh.huangshi.gov.cn",
+      "source_date": "2023-01-05",
+      "source_url": "http://jyh.huangshi.gov.cn/pub/hsjjjskfq/xxgk/fdzdgknr/zdmsxx/aqsc/202604/t20260420_1322092.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "8f285a1543a3e1004343b88a5d9384f4dc32887efc9c9ab3d629301152deb021",
+      "pipeline_version": "case_chunker_v1"
+    },
+    {
+      "doc_type": "case",
+      "chunk_id": "case::case-20::summary",
+      "case_title": "经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告",
+      "accident_type": "高处坠落",
+      "scenario_tags": [
+        "高处作业",
+        "安全带",
+        "脚手架搭设",
+        "脚手架使用"
+      ],
+      "hazard_tags": [
+        "高处坠落",
+        "坍塌"
+      ],
+      "process": "2026年1月15日12时20分许，泥工杨某某在9号楼第7层采光井内脚手架上进行抹灰作业时，因未系安全带且脚手架与井壁间存在40厘米空隙未封闭，不慎从空隙处坠落至井底，经抢救无效死亡。",
+      "consequences": "伤亡：1人死亡；直接经济损失：134.86万元",
+      "text": "案例：经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2026-01-15\n地点：安顺经济技术开发区西航办事处时鼎湖畔建设项目（二期）工地\n经过：2026年1月15日12时20分许，泥工杨某某在9号楼第7层采光井内脚手架上进行抹灰作业时，因未系安全带且脚手架与井壁间存在40厘米空隙未封闭，不慎从空隙处坠落至井底，经抢救无效死亡。\n伤亡：1人死亡 | 损失：134.86万元\n违反规范：JGJ80-2016\n来源：www.anshunjkq.gov.cn",
+      "source": "www.anshunjkq.gov.cn",
+      "schema_version": "case_v1",
+      "chunk_kind": "case_summary",
+      "case_id": "case-20",
+      "title": "经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告",
+      "location": "安顺经济技术开发区西航办事处时鼎湖畔建设项目（二期）工地",
+      "related_standards": [
+        "JGJ-80-2016"
+      ],
+      "source_org": "www.anshunjkq.gov.cn",
+      "source_date": "2026-01-15",
+      "source_url": "https://www.anshunjkq.gov.cn/zwgk/zdlyxxgk/aqsc/202604/t20260402_89956409.html",
+      "source_path": "data/事故案例收集.md",
+      "content_hash": "8fb767d22b0f5676dc8a563b66fc5a775bbb1b9441a6bf6356184a11116213f7",
+      "pipeline_version": "case_chunker_v1"
+    }
+  ],
+  "retrieval_mode": "rrf_hybrid",
+  "norm_evidence_ids": [
+    "norm::JGJ-T46-2024::article::4.1.16",
+    "norm::JGJ-80-2016::article::1.0.2",
+    "norm::JGJ-80-2016::article::1.0.1",
+    "norm::JGJ-80-2016::article::3.0.1",
+    "norm::JGJ-59-2011::article::3.13.1",
+    "norm::GB-51210-2016::article::11.2.10",
+    "norm::GB-55023-2022::article::5.1.3",
+    "norm::GB-50194-2014::article::7.5.4",
+    "norm::JGJ-T46-2024::article::8.1.6",
+    "norm::JGJ-T46-2024::article::8.1.2"
+  ],
+  "case_evidence_ids": [
+    "case::case-22::summary",
+    "case::case-22::cause",
+    "case::case-07::summary",
+    "case::case-11::summary",
+    "case::case-20::summary"
+  ],
+  "linked_norm_evidence_ids": [
+    "norm::GB-51210-2016::article::11.2.10",
+    "norm::GB-55023-2022::article::5.1.3",
+    "norm::GB-50194-2014::article::7.5.4",
+    "norm::JGJ-T46-2024::article::8.1.6",
+    "norm::JGJ-T46-2024::article::8.1.2"
+  ],
+  "case_index_available": true,
+  "evidence_diagnostics": {
+    "retrieval_mode": "rrf_hybrid",
+    "norm_count": 10,
+    "case_count": 5,
+    "norm_evidence_ids": [
+      "norm::JGJ-T46-2024::article::4.1.16",
+      "norm::JGJ-80-2016::article::1.0.2",
+      "norm::JGJ-80-2016::article::1.0.1",
+      "norm::JGJ-80-2016::article::3.0.1",
+      "norm::JGJ-59-2011::article::3.13.1",
+      "norm::GB-51210-2016::article::11.2.10",
+      "norm::GB-55023-2022::article::5.1.3",
+      "norm::GB-50194-2014::article::7.5.4",
+      "norm::JGJ-T46-2024::article::8.1.6",
+      "norm::JGJ-T46-2024::article::8.1.2"
+    ],
+    "case_evidence_ids": [
+      "case::case-22::summary",
+      "case::case-22::cause",
+      "case::case-07::summary",
+      "case::case-11::summary",
+      "case::case-20::summary"
+    ],
+    "case_index_available": true
+  },
+  "fused_evidence": {
+    "scene_summary": "",
+    "risk_analysis": "",
+    "norm_requirements": [
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::4.1.16",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "4.1.16",
+        "title": "配电、开关箱外形结构应具有防，防休措，单独",
+        "content": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：4.1.16\n正文：4.1.16 配电、开关箱外形结构应具有防，防休措，单独\n箱施\n为配电箱、开关箱装设防雨棚〈盖时，防璀雨机的盖)宜采用绝\n缘材料制作。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ T46 2024",
+        "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::1.0.2",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "1.0.2",
+        "title": "本规范适用于建筑工程施工高处作业中的临边、洞口、",
+        "content": "标准：JGJ 80 2016\n章节：01 总则\n编号：1.0.2\n正文：1.0.2 \n本规范适用于建筑工程施工高处作业中的临边、洞口、\n攀登、悬空、操作平台、交叉作业及安全网搭设等项作业。\n本规范亦适用于其他高处作业的各类洞、坑、沟、槽等部位\n的施工。",
+        "requirement_type": "一般要求",
+        "source": "JGJ 80 2016",
+        "source_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::1.0.1",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "1.0.1",
+        "title": "为规范建筑施工高处作业及其管理，做到防护安全、技",
+        "content": "标准：JGJ 80 2016\n章节：01 总则\n编号：1.0.1\n正文：1.0.1 \n为规范建筑施工高处作业及其管理，做到防护安全、技\n术先进、经济合理，制定本规范。",
+        "requirement_type": "一般要求",
+        "source": "JGJ 80 2016",
+        "source_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::3.0.1",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "3.0.1",
+        "title": "建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、",
+        "content": "标准：JGJ 80 2016\n章节：03 基本规定\n编号：3.0.1\n正文：3.0.1 \n建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、\n操作平台、交叉作业及安全网搭设的，应在施工组织设计或施工\n方案中制定高处作业安全技术措施。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ 80 2016",
+        "source_path": "rag_data/rag_data/JGJ 80-2016/03_基本规定.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-59-2011::article::3.13.1",
+        "standard_code": "JGJ-59-2011",
+        "article_id": "3.13.1",
+        "title": "高处作业检查评定应符合现行国家标准《安全网》",
+        "content": "标准：JGJ 59 2011\n章节：01 建筑施工安全检查标准\n编号：3.13.1\n正文：3.13.1 高处作业检查评定应符合现行国家标准《安全网》\nGB 5725\n、《安全帽》GB 2118\n、《安全带》GB 6095和现行行业标\n准《建筑施工高处作业安全技术规范》JGJ80\n的规定。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ 59 2011",
+        "source_path": "rag_data/rag_data/JGJ-59-2011/01_建筑施工安全检查标准.pdf"
+      },
+      {
+        "chunk_id": "norm::GB-51210-2016::article::11.2.10",
+        "standard_code": "GB-51210-2016",
+        "article_id": "11.2.10",
+        "title": "脚手架与架空输电线路的安全距离、工地临时用电线",
+        "content": "标准：GB 51210 2016\n章节：11 安全管理\n编号：11.2.10\n正文：11.2.10 脚手架与架空输电线路的安全距离、工地临时用电线\n路架设及脚手架接地、防雷措施，应按现行行业标准《施工现场\n临时用电安全技术规范》JG] 46执行。",
+        "requirement_type": "强制性要求",
+        "source": "GB 51210 2016",
+        "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-51210-2016/11_安全管理.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::GB-55023-2022::article::5.1.3",
+        "standard_code": "GB-55023-2022",
+        "article_id": "5.1.3",
+        "title": "当在脚手架上架设临时施工用电线路时，应有绝缘措施，",
+        "content": "标准：GB 55023 2022\n章节：05 搭设、使用与拆除\n编号：5.1.3\n正文：5.1.3 \n当在脚手架上架设临时施工用电线路时，应有绝缘措施，\n操作人员应穿绝缘防滑鞋；脚手架与架空输电线路之间应设有安\n全距离，并应设置接地、防雷设施。",
+        "requirement_type": "强制性要求",
+        "source": "GB 55023 2022",
+        "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/05_搭设、使用与拆除.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::GB-50194-2014::article::7.5.4",
+        "standard_code": "GB-50194-2014",
+        "article_id": "7.5.4",
+        "title": "当施工现场道路设施等与外电架空线路的最小距离达不",
+        "content": "标准：GB 50194 2014\n章节：07 配电线路\n编号：7.5.4\n正文：7.5.4 \n当施工现场道路设施等与外电架空线路的最小距离达不\n到本规范第7.5.3条中的规定时，应采取隔离防护措施，防护设施\n的搭设和拆除应符合下列规定：\n1 \n架设防护设施时，应采用线路暂时停电或其他可靠的安全\n技术措施，并应有电气专业技术人员和专职安全火员监护；\n2 \n防护设施与外电架空线路之间的安全距离不应小于表\n7.5.4所列数值；\n< ' ' -\n类\n离\n且\n., . \n¢ \n.. \n国、，i\n’ \n' . ,. \n. \n,., \nt \n、’，飞\n‘· . \n' ,_.,, \nζ』，；，，\"·., \n., \n’‘ \n, \n. ,, \n，二c\n• \n• \n~ \n~' \n；、\n’1 ‘ \n~ ’ \n~' -\n飞主\nd’ u • \n. ; \n也－.\n' ，咱\n、\n. \n‘’ \n~· \n、\n·, ” \n< \n、气。\n' \n，气, \n’ \n\"' \n. \n. \n·旱\n• \n, \n’队\n, \n; \n‘、~\n量\n.. \n、\n\n3 \n防护设施应坚固、稳定，且对外电架空线路的...",
+        "requirement_type": "强制性要求",
+        "source": "GB 50194 2014",
+        "source_path": "rag_data/rag_data/GB-50194-2014/07_配电线路.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::8.1.6",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "8.1.6",
+        "title": "当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定",
+        "content": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：8.1.6\n正文：8.1.6 当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定\n不能实现，应采取绝缘隔离防护措施，并应悬挂醒导的警告标\n时\n识。架设防护设施，应经有关部门批准，采用线路暂时停电或\n时\n其他可靠的安全技术措施，并应有电气工程技术火员和专职安全\n人员监。防护设施与外电线路之间的安全外离不应小于\n表8.1.6所护列数值。防护设施应坚固、稳定4U对外电线路的隔\n离防护应达到IP30级。\n表8.1.6防护设施与外电线路之间的最小安全距离\n[TSTREETaRE",
+        "requirement_type": "强制性要求",
+        "source": "JGJ T46 2024",
+        "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::8.1.2",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "8.1.2",
+        "title": "在施工程〈含脚手架)的周近写外电架。空线路的边线之",
+        "content": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：8.1.2\n正文：8.1.2 在施工程〈含脚手架)的周近写外电架。空线路的边线之\n间的最小安全操作距离应符合表8.下2规定。\n表8.1.2在施工程(含脚手锅)-的周边与架空线路的\n边线之间的最小安全操作距离\n注,上下脚手架的斜道不宰设在有外电线路的一侧。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ T46 2024",
+        "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      }
+    ],
+    "case_warnings": [
+      {
+        "chunk_id": "case::case-22::summary",
+        "case_id": "case-22",
+        "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+        "summary": "案例：正蓝旗居家宾馆“9·18”触电事故\n类型：触电 | 日期：2025-09-18\n地点：内蒙古正蓝旗桑根达来镇居家宾馆施工现场\n经过：2025年9月18日上午7时30分，三名工人开始脚手架搭设作业。9时50分许，地面工人将6米钢管向上传递至脚手架上方作业人员，7层西北角作业人员李某恒在摆放钢管时，钢管进入西侧10kV高压线放电区，李某恒受电击后从7层约10米高处坠落，经抢救无效死亡。事故后钢管遗留在7层脚手架上并可见黑色烧焦点，高压线边导线与脚手架最外侧水平间距约2.58米。\n伤亡：1人死亡 | 损失：约140万元\n违反规范：JGJ/T 46-2024 第8.1.2条、第8.1.6条；GB 50194-2014 第7.5.4条；GB 51210-2016 第11.2.10条；GB 55023-2022 第5.1.3条\n来源：正蓝旗应急管理局",
+        "consequence": "伤亡：1人死亡；直接经济损失：约140万元",
+        "lesson": "",
+        "source": "正蓝旗应急管理局",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-22::cause",
+        "case_id": "case-22",
+        "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+        "summary": "案例：正蓝旗居家宾馆“9·18”触电事故（原因）\n直接原因：作业人员未充分识别高压线触电风险，在高处脚手架上传递6米钢管，钢管进入高压电击穿范围；现场未采取断电或隔离措施，未设置安全防护网，作业人员未佩戴安全帽和安全带。\n间接原因：宾馆经营者将工程违规发包给无资质个人，未签订安全管理协议，未向电力部门申请断电或采取隔离措施；承揽人以个人名义承揽工程，雇佣无证人员搭设脚手架，未配备安全管理人员，未建立安全生产管理制度和操作规程，未编制脚手架搭设专项施工方案；相关属地和行业监管责任落实不到位。",
+        "consequence": "",
+        "lesson": "",
+        "source": "正蓝旗应急管理局",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-07::summary",
+        "case_id": "case-07",
+        "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+        "summary": "案例：民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故\n类型：高处坠落 | 日期：2023-09-20\n地点：深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地\n经过：事故工程为“微棠公寓塘水围二区48#-2（48B）装修改造工程”，建筑面积约3441平方米，外架搭设高度42米，事发时处于收尾阶段。作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。\n伤亡：1人死亡 | 损失：约191万元\n违反规范：《施工脚手架通用规范》、《中华人民共和国安全生产法》\n来源：www.szlhq.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：约191万元",
+        "lesson": "",
+        "source": "www.szlhq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-11::summary",
+        "case_id": "case-11",
+        "case_title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+        "summary": "案例：湖北某学院新校区“1·5”  一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2023-01-05\n地点：湖北省黄石市黄石经济技术开发区·铁山区汪仁镇湖北某学院新校区一期工程13号楼\n经过：2023年1月5日16时30分左右，湖北某学院新校区一期工程13号楼室内装修现场，劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。\n伤亡：1人死亡 | 损失：151万元\n违反规范：《中华人民共和国安全生产法》\n来源：jyh.huangshi.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：151万元",
+        "lesson": "",
+        "source": "jyh.huangshi.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-20::summary",
+        "case_id": "case-20",
+        "case_title": "经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告",
+        "summary": "案例：经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2026-01-15\n地点：安顺经济技术开发区西航办事处时鼎湖畔建设项目（二期）工地\n经过：2026年1月15日12时20分许，泥工杨某某在9号楼第7层采光井内脚手架上进行抹灰作业时，因未系安全带且脚手架与井壁间存在40厘米空隙未封闭，不慎从空隙处坠落至井底，经抢救无效死亡。\n伤亡：1人死亡 | 损失：134.86万元\n违反规范：JGJ80-2016\n来源：www.anshunjkq.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：134.86万元",
+        "lesson": "",
+        "source": "www.anshunjkq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      }
+    ],
+    "preventive_measures": []
+  },
+  "draft_training_output": {
+    "scenario_description": "",
+    "hazard_identification_question": "",
+    "expected_hazards": [],
+    "norm_requirements": [
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::4.1.16",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "4.1.16",
+        "title": "配电、开关箱外形结构应具有防，防休措，单独",
+        "content": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：4.1.16\n正文：4.1.16 配电、开关箱外形结构应具有防，防休措，单独\n箱施\n为配电箱、开关箱装设防雨棚〈盖时，防璀雨机的盖)宜采用绝\n缘材料制作。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ T46 2024",
+        "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::1.0.2",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "1.0.2",
+        "title": "本规范适用于建筑工程施工高处作业中的临边、洞口、",
+        "content": "标准：JGJ 80 2016\n章节：01 总则\n编号：1.0.2\n正文：1.0.2 \n本规范适用于建筑工程施工高处作业中的临边、洞口、\n攀登、悬空、操作平台、交叉作业及安全网搭设等项作业。\n本规范亦适用于其他高处作业的各类洞、坑、沟、槽等部位\n的施工。",
+        "requirement_type": "一般要求",
+        "source": "JGJ 80 2016",
+        "source_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::1.0.1",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "1.0.1",
+        "title": "为规范建筑施工高处作业及其管理，做到防护安全、技",
+        "content": "标准：JGJ 80 2016\n章节：01 总则\n编号：1.0.1\n正文：1.0.1 \n为规范建筑施工高处作业及其管理，做到防护安全、技\n术先进、经济合理，制定本规范。",
+        "requirement_type": "一般要求",
+        "source": "JGJ 80 2016",
+        "source_path": "rag_data/rag_data/JGJ 80-2016/01_总则.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::3.0.1",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "3.0.1",
+        "title": "建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、",
+        "content": "标准：JGJ 80 2016\n章节：03 基本规定\n编号：3.0.1\n正文：3.0.1 \n建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、\n操作平台、交叉作业及安全网搭设的，应在施工组织设计或施工\n方案中制定高处作业安全技术措施。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ 80 2016",
+        "source_path": "rag_data/rag_data/JGJ 80-2016/03_基本规定.pdf"
+      },
+      {
+        "chunk_id": "norm::JGJ-59-2011::article::3.13.1",
+        "standard_code": "JGJ-59-2011",
+        "article_id": "3.13.1",
+        "title": "高处作业检查评定应符合现行国家标准《安全网》",
+        "content": "标准：JGJ 59 2011\n章节：01 建筑施工安全检查标准\n编号：3.13.1\n正文：3.13.1 高处作业检查评定应符合现行国家标准《安全网》\nGB 5725\n、《安全帽》GB 2118\n、《安全带》GB 6095和现行行业标\n准《建筑施工高处作业安全技术规范》JGJ80\n的规定。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ 59 2011",
+        "source_path": "rag_data/rag_data/JGJ-59-2011/01_建筑施工安全检查标准.pdf"
+      },
+      {
+        "chunk_id": "norm::GB-51210-2016::article::11.2.10",
+        "standard_code": "GB-51210-2016",
+        "article_id": "11.2.10",
+        "title": "脚手架与架空输电线路的安全距离、工地临时用电线",
+        "content": "标准：GB 51210 2016\n章节：11 安全管理\n编号：11.2.10\n正文：11.2.10 脚手架与架空输电线路的安全距离、工地临时用电线\n路架设及脚手架接地、防雷措施，应按现行行业标准《施工现场\n临时用电安全技术规范》JG] 46执行。",
+        "requirement_type": "强制性要求",
+        "source": "GB 51210 2016",
+        "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-51210-2016/11_安全管理.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::GB-55023-2022::article::5.1.3",
+        "standard_code": "GB-55023-2022",
+        "article_id": "5.1.3",
+        "title": "当在脚手架上架设临时施工用电线路时，应有绝缘措施，",
+        "content": "标准：GB 55023 2022\n章节：05 搭设、使用与拆除\n编号：5.1.3\n正文：5.1.3 \n当在脚手架上架设临时施工用电线路时，应有绝缘措施，\n操作人员应穿绝缘防滑鞋；脚手架与架空输电线路之间应设有安\n全距离，并应设置接地、防雷设施。",
+        "requirement_type": "强制性要求",
+        "source": "GB 55023 2022",
+        "source_path": "脚手架规范文表图切分/脚手架规范文表图切分/GB-55023-2022/05_搭设、使用与拆除.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::GB-50194-2014::article::7.5.4",
+        "standard_code": "GB-50194-2014",
+        "article_id": "7.5.4",
+        "title": "当施工现场道路设施等与外电架空线路的最小距离达不",
+        "content": "标准：GB 50194 2014\n章节：07 配电线路\n编号：7.5.4\n正文：7.5.4 \n当施工现场道路设施等与外电架空线路的最小距离达不\n到本规范第7.5.3条中的规定时，应采取隔离防护措施，防护设施\n的搭设和拆除应符合下列规定：\n1 \n架设防护设施时，应采用线路暂时停电或其他可靠的安全\n技术措施，并应有电气专业技术人员和专职安全火员监护；\n2 \n防护设施与外电架空线路之间的安全距离不应小于表\n7.5.4所列数值；\n< ' ' -\n类\n离\n且\n., . \n¢ \n.. \n国、，i\n’ \n' . ,. \n. \n,., \nt \n、’，飞\n‘· . \n' ,_.,, \nζ』，；，，\"·., \n., \n’‘ \n, \n. ,, \n，二c\n• \n• \n~ \n~' \n；、\n’1 ‘ \n~ ’ \n~' -\n飞主\nd’ u • \n. ; \n也－.\n' ，咱\n、\n. \n‘’ \n~· \n、\n·, ” \n< \n、气。\n' \n，气, \n’ \n\"' \n. \n. \n·旱\n• \n, \n’队\n, \n; \n‘、~\n量\n.. \n、\n\n3 \n防护设施应坚固、稳定，且对外电架空线路的...",
+        "requirement_type": "强制性要求",
+        "source": "GB 50194 2014",
+        "source_path": "rag_data/rag_data/GB-50194-2014/07_配电线路.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::8.1.6",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "8.1.6",
+        "title": "当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定",
+        "content": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：8.1.6\n正文：8.1.6 当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定\n不能实现，应采取绝缘隔离防护措施，并应悬挂醒导的警告标\n时\n识。架设防护设施，应经有关部门批准，采用线路暂时停电或\n时\n其他可靠的安全技术措施，并应有电气工程技术火员和专职安全\n人员监。防护设施与外电线路之间的安全外离不应小于\n表8.1.6所护列数值。防护设施应坚固、稳定4U对外电线路的隔\n离防护应达到IP30级。\n表8.1.6防护设施与外电线路之间的最小安全距离\n[TSTREETaRE",
+        "requirement_type": "强制性要求",
+        "source": "JGJ T46 2024",
+        "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::8.1.2",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "8.1.2",
+        "title": "在施工程〈含脚手架)的周近写外电架。空线路的边线之",
+        "content": "标准：JGJ T46 2024\n章节：01 建筑与市政工程施工现场临时用电安全技术标准\n编号：8.1.2\n正文：8.1.2 在施工程〈含脚手架)的周近写外电架。空线路的边线之\n间的最小安全操作距离应符合表8.下2规定。\n表8.1.2在施工程(含脚手锅)-的周边与架空线路的\n边线之间的最小安全操作距离\n注,上下脚手架的斜道不宰设在有外电线路的一侧。",
+        "requirement_type": "强制性要求",
+        "source": "JGJ T46 2024",
+        "source_path": "rag_data/rag_data/JGJ-T46-2024/01_建筑与市政工程施工现场临时用电安全技术标准.pdf",
+        "linked_from_case": [
+          "case-22"
+        ]
+      }
+    ],
+    "accident_warnings": [
+      {
+        "chunk_id": "case::case-22::summary",
+        "case_id": "case-22",
+        "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+        "summary": "案例：正蓝旗居家宾馆“9·18”触电事故\n类型：触电 | 日期：2025-09-18\n地点：内蒙古正蓝旗桑根达来镇居家宾馆施工现场\n经过：2025年9月18日上午7时30分，三名工人开始脚手架搭设作业。9时50分许，地面工人将6米钢管向上传递至脚手架上方作业人员，7层西北角作业人员李某恒在摆放钢管时，钢管进入西侧10kV高压线放电区，李某恒受电击后从7层约10米高处坠落，经抢救无效死亡。事故后钢管遗留在7层脚手架上并可见黑色烧焦点，高压线边导线与脚手架最外侧水平间距约2.58米。\n伤亡：1人死亡 | 损失：约140万元\n违反规范：JGJ/T 46-2024 第8.1.2条、第8.1.6条；GB 50194-2014 第7.5.4条；GB 51210-2016 第11.2.10条；GB 55023-2022 第5.1.3条\n来源：正蓝旗应急管理局",
+        "consequence": "伤亡：1人死亡；直接经济损失：约140万元",
+        "lesson": "",
+        "source": "正蓝旗应急管理局",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-22::cause",
+        "case_id": "case-22",
+        "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+        "summary": "案例：正蓝旗居家宾馆“9·18”触电事故（原因）\n直接原因：作业人员未充分识别高压线触电风险，在高处脚手架上传递6米钢管，钢管进入高压电击穿范围；现场未采取断电或隔离措施，未设置安全防护网，作业人员未佩戴安全帽和安全带。\n间接原因：宾馆经营者将工程违规发包给无资质个人，未签订安全管理协议，未向电力部门申请断电或采取隔离措施；承揽人以个人名义承揽工程，雇佣无证人员搭设脚手架，未配备安全管理人员，未建立安全生产管理制度和操作规程，未编制脚手架搭设专项施工方案；相关属地和行业监管责任落实不到位。",
+        "consequence": "",
+        "lesson": "",
+        "source": "正蓝旗应急管理局",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-07::summary",
+        "case_id": "case-07",
+        "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+        "summary": "案例：民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故\n类型：高处坠落 | 日期：2023-09-20\n地点：深圳市龙华区民治街道民强社区塘水围二区48B栋装修工地\n经过：事故工程为“微棠公寓塘水围二区48#-2（48B）装修改造工程”，建筑面积约3441平方米，外架搭设高度42米，事发时处于收尾阶段。作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。\n伤亡：1人死亡 | 损失：约191万元\n违反规范：《施工脚手架通用规范》、《中华人民共和国安全生产法》\n来源：www.szlhq.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：约191万元",
+        "lesson": "",
+        "source": "www.szlhq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-11::summary",
+        "case_id": "case-11",
+        "case_title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+        "summary": "案例：湖北某学院新校区“1·5”  一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2023-01-05\n地点：湖北省黄石市黄石经济技术开发区·铁山区汪仁镇湖北某学院新校区一期工程13号楼\n经过：2023年1月5日16时30分左右，湖北某学院新校区一期工程13号楼室内装修现场，劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。\n伤亡：1人死亡 | 损失：151万元\n违反规范：《中华人民共和国安全生产法》\n来源：jyh.huangshi.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：151万元",
+        "lesson": "",
+        "source": "jyh.huangshi.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-20::summary",
+        "case_id": "case-20",
+        "case_title": "经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告",
+        "summary": "案例：经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告\n类型：高处坠落 | 日期：2026-01-15\n地点：安顺经济技术开发区西航办事处时鼎湖畔建设项目（二期）工地\n经过：2026年1月15日12时20分许，泥工杨某某在9号楼第7层采光井内脚手架上进行抹灰作业时，因未系安全带且脚手架与井壁间存在40厘米空隙未封闭，不慎从空隙处坠落至井底，经抢救无效死亡。\n伤亡：1人死亡 | 损失：134.86万元\n违反规范：JGJ80-2016\n来源：www.anshunjkq.gov.cn",
+        "consequence": "伤亡：1人死亡；直接经济损失：134.86万元",
+        "lesson": "",
+        "source": "www.anshunjkq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      }
+    ],
+    "operation_points": [],
+    "learner_evaluation_guide": "",
+    "remedial_feedback_guide": "",
+    "quiz_questions": []
+  },
+  "consistency_passed": true,
+  "consistency_issues": [],
+  "retry_count": 0,
+  "retry_reason": "",
+  "dialogue_budget": 1,
+  "evidence_request": null,
+  "arbitration_decision": {
+    "type": "passed",
+    "action": "proceed"
+  },
+  "requires_human_review": false,
+  "arbitration_route": "training_agent",
+  "final_training_output": {
+    "scenario_description": "夏季暴雨后，电工小李准备在泥泞湿滑的露天脚手架上更换配电箱熔断器。配电箱距地面2.5米，周围有破损围挡和松动接地线，附近塔吊电缆随风摆动。小李携带电池仓盖缺失的手电筒，并计划使用铝制梯子靠近配电箱作业。",
+    "hazard_identification_question": "请指出小李作业现场存在的主要触电和坠落风险，并说明应采取的防护措施。",
+    "expected_hazards": [
+      "配电箱漏电触电（环境潮湿、接地松动、箱体未锁）",
+      "高处临边触电（露天脚手架作业、无防雨绝缘措施）",
+      "湿滑地面坠落（泥泞积水、铝梯作业）"
+    ],
+    "norm_requirements": [
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::4.1.16",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "4.1.16",
+        "title": "配电、开关箱外形结构应具有防，防休措，单独",
+        "content": "配电箱、开关箱装设防雨棚〈盖时，防璀雨机的盖)宜采用绝缘材料制作。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::1.0.2",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "1.0.2",
+        "title": "本规范适用于建筑工程施工高处作业中的临边、洞口、",
+        "content": "本规范适用于建筑工程施工高处作业中的临边、洞口、攀登、悬空、操作平台、交叉作业及安全网搭设等项作业。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "一般要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::1.0.1",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "1.0.1",
+        "title": "为规范建筑施工高处作业及其管理，做到防护安全、技",
+        "content": "为规范建筑施工高处作业及其管理，做到防护安全、技术先进、经济合理，制定本规范。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "一般要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-80-2016::article::3.0.1",
+        "standard_code": "JGJ-80-2016",
+        "article_id": "3.0.1",
+        "title": "建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、",
+        "content": "建筑施工中凡涉及临边与洞口作业、攀登与悬空作业、操作平台、交叉作业及安全网搭设的，应在施工组织设计或施工方案中制定高处作业安全技术措施。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-59-2011::article::3.13.1",
+        "standard_code": "JGJ-59-2011",
+        "article_id": "3.13.1",
+        "title": "高处作业检查评定应符合现行国家标准《安全网》",
+        "content": "高处作业检查评定应符合现行国家标准《安全网》GB 5725、《安全帽》GB 2118、《安全带》GB 6095和现行行业标准《建筑施工高处作业安全技术规范》JGJ80的规定。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::GB-51210-2016::article::11.2.10",
+        "standard_code": "GB-51210-2016",
+        "article_id": "11.2.10",
+        "title": "脚手架与架空输电线路的安全距离、工地临时用电线",
+        "content": "脚手架与架空输电线路的安全距离、工地临时用电线路架设及脚手架接地、防雷措施，应按现行行业标准《施工现场临时用电安全技术规范》JG] 46执行。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::GB-55023-2022::article::5.1.3",
+        "standard_code": "GB-55023-2022",
+        "article_id": "5.1.3",
+        "title": "当在脚手架上架设临时施工用电线路时，应有绝缘措施，",
+        "content": "当在脚手架上架设临时施工用电线路时，应有绝缘措施，操作人员应穿绝缘防滑鞋；脚手架与架空输电线路之间应设有安全距离，并应设置接地、防雷设施。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::GB-50194-2014::article::7.5.4",
+        "standard_code": "GB-50194-2014",
+        "article_id": "7.5.4",
+        "title": "当施工现场道路设施等与外电架空线路的最小距离达不",
+        "content": "当施工现场道路设施等与外电架空线路的最小距离达不到本规范第7.5.3条中的规定时，应采取隔离防护措施，防护设施的搭设和拆除应符合下列规定：1 架设防护设施时，应采用线路暂时停电或其他可靠的安全技术措施，并应有电气专业技术人员和专职安全火员监护；2 防护设施与外电架空线路之间的安全距离不应小于表7.5.4所列数值；3 防护设施应坚固、稳定，且对外电架空线路的...",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::8.1.6",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "8.1.6",
+        "title": "当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定",
+        "content": "当本标准第8.1.2条、第8.1.3条及第8.1.4条的规定不能实现，应采取绝缘隔离防护措施，并应悬挂醒导的警告标识。架设防护设施，应经有关部门批准，采用线路暂时停电或其他可靠的安全技术措施，并应有电气工程技术火员和专职安全人员监。防护设施与外电线路之间的安全外离不应小于表8.1.6所护列数值。防护设施应坚固、稳定4U对外电线路的隔离防护应达到IP30级。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      },
+      {
+        "chunk_id": "norm::JGJ-T46-2024::article::8.1.2",
+        "standard_code": "JGJ-T46-2024",
+        "article_id": "8.1.2",
+        "title": "在施工程〈含脚手架)的周近写外电架。空线路的边线之",
+        "content": "在施工程〈含脚手架)的周近写外电架。空线路的边线之间的最小安全操作距离应符合表8.下2规定。",
+        "source": "",
+        "source_path": "",
+        "requirement_type": "强制性要求",
+        "linked_from_case": [
+          "case-22"
+        ]
+      }
+    ],
+    "accident_warnings": [
+      {
+        "chunk_id": "case::case-22::summary",
+        "case_id": "case-22",
+        "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+        "summary": "2025年9月18日上午7时30分，三名工人开始脚手架搭设作业。9时50分许，地面工人将6米钢管向上传递至脚手架上方作业人员，7层西北角作业人员李某恒在摆放钢管时，钢管进入西侧10kV高压线放电区，李某恒受电击后从7层约10米高处坠落，经抢救无效死亡。",
+        "consequence": "伤亡：1人死亡 | 损失：约140万元",
+        "lesson": "未充分识别高压线触电风险，未采取断电或隔离措施，未佩戴安全帽和安全带。",
+        "source": "正蓝旗应急管理局",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-22::cause",
+        "case_id": "case-22",
+        "case_title": "正蓝旗居家宾馆“9·18”触电事故",
+        "summary": "直接原因：作业人员未充分识别高压线触电风险，在高处脚手架上传递6米钢管，钢管进入高压电击穿范围；现场未采取断电或隔离措施，未设置安全防护网，作业人员未佩戴安全帽和安全带。",
+        "consequence": "",
+        "lesson": "",
+        "source": "正蓝旗应急管理局",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-07::summary",
+        "case_id": "case-07",
+        "case_title": "民治街道塘水围二区48B栋装修工程“9·20”一般高坠死亡事故",
+        "summary": "作业人员在拆除脚手架过程中，因脚手架未按方案要求搭设，防护设施缺失，导致高处坠落。",
+        "consequence": "伤亡：1人死亡 | 损失：约191万元",
+        "lesson": "",
+        "source": "www.szlhq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-11::summary",
+        "case_id": "case-11",
+        "case_title": "湖北某学院新校区“1·5”  一般高处坠落事故调查报告",
+        "summary": "劳务人员刘某在满堂脚手架顶部竹跳板平台上从事石膏板嵌缝作业时，为便于施工擅自拆改竹跳板且未有效绑扎固定，踩踏时竹跳板位移致其滑落，坠落至观众席台阶地面，经抢救无效死亡。",
+        "consequence": "伤亡：1人死亡 | 损失：151万元",
+        "lesson": "",
+        "source": "jyh.huangshi.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      },
+      {
+        "chunk_id": "case::case-20::summary",
+        "case_id": "case-20",
+        "case_title": "经开西航时鼎湖畔建设项目（二期）  “1·15”一般高处坠落事故调查报告",
+        "summary": "泥工杨某某在9号楼第7层采光井内脚手架上进行抹灰作业时，因未系安全带且脚手架与井壁间存在40厘米空隙未封闭，不慎从空隙处坠落至井底，经抢救无效死亡。",
+        "consequence": "伤亡：1人死亡 | 损失：134.86万元",
+        "lesson": "",
+        "source": "www.anshunjkq.gov.cn",
+        "source_path": "data/事故案例收集.md"
+      }
+    ],
+    "operation_points": [
+      "作业前：检查配电箱接地是否牢固，箱门是否上锁，周围是否有积水或湿滑地面，确认配电箱防雨措施是否完好。",
+      "作业前：使用绝缘材料制作或安装防雨棚（盖），确保配电箱具备防雨、防潮功能。",
+      "作业前：检查梯子是否为绝缘材质，严禁使用铝制梯子靠近配电箱作业。",
+      "作业前：检查手电筒电池仓盖是否缺失，线路是否裸露，确保照明工具安全可靠。",
+      "作业前：确认配电箱周围是否有破损围挡，及时修复或更换，防止触电风险。",
+      "作业中：穿戴绝缘防滑鞋，确保脚下干燥，避免滑倒。",
+      "作业中：使用绝缘工具进行熔断器更换，严禁湿手操作电气设备。",
+      "作业中：保持与附近塔吊电缆的安全距离，避免触碰或靠近。",
+      "作业中：确保配电箱周围无积水，必要时设置排水措施。",
+      "作业后：清理作业现场，确保配电箱周围无杂物，恢复安全状态。"
+    ],
+    "learner_evaluation_guide": "能准确识别配电箱漏电、高处触电、湿滑地面坠落三大风险，并说明相应的防护措施（如使用绝缘工具、穿戴绝缘鞋、检查接地等）即为合格。",
+    "remedial_feedback_guide": "常见漏答是未强调使用绝缘梯子，正确做法是严禁使用金属梯子靠近配电箱；常见错答是忽视配电箱接地检查，正确做法是必须先确认接地牢固后再作业。",
+    "quiz_questions": [
+      {
+        "type": "choice",
+        "question": "在潮湿环境下更换配电箱熔断器时，以下哪项措施是错误的？",
+        "options": [
+          "A. 使用绝缘工具进行操作",
+          "B. 穿戴绝缘防滑鞋",
+          "C. 使用铝制梯子靠近配电箱作业",
+          "D. 检查配电箱接地是否牢固"
+        ],
+        "answer": "C",
+        "explanation": "铝制梯子导电性强，在潮湿环境下靠近配电箱作业极易引发触电事故，严禁使用。"
+      },
+      {
+        "type": "true_false",
+        "question": "配电箱装设防雨棚时，防雨棚盖宜采用绝缘材料制作。",
+        "options": [],
+        "answer": "正确",
+        "explanation": "根据JGJ-T46-2024第4.1.16条，配电箱、开关箱装设防雨棚（盖）时，防雨棚的盖宜采用绝缘材料制作，以防止漏电触电。"
+      }
+    ]
+  }
+}

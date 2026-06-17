@@ -1,0 +1,22 @@
+{
+  "source_file": "paper/3 Methodology/Methodology.md",
+  "source_type": "authored_markdown",
+  "language_pair": "en->zh",
+  "mode": "full_bilingual_reader",
+  "page_numbering": "section-based (source has no pages)",
+  "blocks": [
+    {"id": "S001", "section": "3", "type": "body", "order": 1, "title": "方法总览 / framework overview", "figures_referenced": ["Fig.1"]},
+    {"id": "S002", "section": "3.1", "type": "body", "order": 2, "title": "规范证据库：条文级切分与 chunk_id", "figures_referenced": []},
+    {"id": "S003", "section": "3.1", "type": "body", "order": 3, "title": "嵌入索引与 RRF 混合检索", "equations": ["Eq.1 RRF"], "figures_referenced": []},
+    {"id": "S004", "section": "3.2", "type": "body", "order": 4, "title": "案例结构化与 related_standards", "figures_referenced": []},
+    {"id": "S005", "section": "3.2", "type": "body", "order": 5, "title": "案例—规范跨文档链接", "equations": ["Eq.2 link operator"], "figures_referenced": ["Fig.2"]},
+    {"id": "S006", "section": "3.3", "type": "body", "order": 6, "title": "三层审议式生成总览", "figures_referenced": ["Fig.4"]},
+    {"id": "S007", "section": "3.3.1", "type": "body", "order": 7, "title": "取证层", "figures_referenced": []},
+    {"id": "S008", "section": "3.3.2", "type": "body", "order": 8, "title": "撰写层与确定性 chunk_id 接地", "equations": ["Eq.3 grounding filter"], "figures_referenced": []},
+    {"id": "S009", "section": "3.3.3", "type": "body", "order": 9, "title": "仲裁层与有界受控通信", "figures_referenced": []},
+    {"id": "S010", "section": "3.4", "type": "body", "order": 10, "title": "双模态意图自适应编排", "figures_referenced": ["Fig.1"]}
+  ],
+  "figures_in_source": [],
+  "tables_in_source": [],
+  "notes": "Source is the author's own English Methods markdown; no embedded figures/tables. Fig.1/2/4 are referenced in prose; image assets live under paper/3 Methodology/figures/."
+}

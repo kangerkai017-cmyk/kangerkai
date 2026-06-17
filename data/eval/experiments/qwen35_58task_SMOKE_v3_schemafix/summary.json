@@ -1,0 +1,44 @@
+{
+  "norm_only": {
+    "n_tasks": 2,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.0,
+    "norm_recall_at_k_mean": 0.0,
+    "case_recall_at_k_mean": 0.0,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 1,
+    "elapsed_seconds_mean": 19.6066
+  },
+  "naive_dual": {
+    "n_tasks": 2,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.4166,
+    "norm_recall_at_k_mean": 0.0,
+    "case_recall_at_k_mean": 0.75,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 2,
+    "elapsed_seconds_mean": 43.31
+  },
+  "optimized": {
+    "n_tasks": 2,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.5,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.375,
+    "norm_recall_at_k_mean": 0.0,
+    "case_recall_at_k_mean": 0.8334,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 2,
+    "elapsed_seconds_mean": 40.8979
+  }
+}

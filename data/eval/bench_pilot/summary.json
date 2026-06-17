@@ -1,0 +1,72 @@
+{
+  "llm_only": {
+    "n_tasks": 5,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.1333,
+    "case_relevance_mean": 0.0,
+    "norm_recall_at_k_mean": 0.0,
+    "case_recall_at_k_mean": 0.0,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 0,
+    "elapsed_seconds_mean": 39.1353
+  },
+  "naive_dual": {
+    "n_tasks": 5,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.8,
+    "hallucination_rate_mean": 0.2,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.3333,
+    "norm_recall_at_k_mean": 0.0667,
+    "case_recall_at_k_mean": 0.65,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 2,
+    "elapsed_seconds_mean": 64.7235
+  },
+  "norm_only": {
+    "n_tasks": 5,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.0,
+    "norm_recall_at_k_mean": 0.0667,
+    "case_recall_at_k_mean": 0.0,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 0.8,
+    "retrieval_calls_mean": 1,
+    "elapsed_seconds_mean": 71.7445
+  },
+  "optimized": {
+    "n_tasks": 5,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 0.6714,
+    "hallucination_rate_mean": 0.1286,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.5333,
+    "norm_recall_at_k_mean": 0.0,
+    "case_recall_at_k_mean": 0.8333,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 2,
+    "elapsed_seconds_mean": 70.7822
+  },
+  "proposed": {
+    "n_tasks": 5,
+    "norm_citation_validity_mean": 0.1695,
+    "grounding_rate_mean": 0.8,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.1,
+    "case_relevance_mean": 0.25,
+    "norm_recall_at_k_mean": 0.6,
+    "case_recall_at_k_mean": 0.3,
+    "link_resolution_rate_mean": 0.373,
+    "llm_calls_mean": 0,
+    "retrieval_calls_mean": 0,
+    "elapsed_seconds_mean": 59.2886
+  }
+}

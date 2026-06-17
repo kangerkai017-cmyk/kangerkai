@@ -1,0 +1,5 @@
+variant,task_id,theme,tier,norm_citation_validity,grounding_rate,hallucination_rate,hazard_coverage,case_relevance,norm_recall_at_k,case_recall_at_k,norm_retrieved_count,case_retrieved_count,link_resolution_rate,cited_norm_count,cited_case_count,llm_calls,retrieval_calls,elapsed_seconds,prompt_chars,model,base_url_domain
+optimized,task-高处作业-001,高处作业,S,0.0,1.0,0.0,0.0,1.0,0.0,1.0,10,10,0.0,10,10,1,2,37.45582908624783,4394,deepseek-v4-pro,api.deepseek.com
+proposed,task-高处作业-001,高处作业,S,0.3333,1.0,0.0,0.5,0.75,1.0,0.75,9,5,0.4444,9,5,0,0,18.99715221906081,0,deepseek-v4-pro,api.deepseek.com
+optimized,task-高处作业-002,高处作业,W,0.0,1.0,0.0,0.0,0.3333,0.0,0.6667,10,10,0.0,7,8,1,2,14.58225992275402,4332,deepseek-v4-pro,api.deepseek.com
+proposed,task-高处作业-002,高处作业,W,0.0,1.0,0.0,0.0,0.3333,0.0,0.3333,8,5,0.375,8,5,0,0,18.313974416814744,0,deepseek-v4-pro,api.deepseek.com

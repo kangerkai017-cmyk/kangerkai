@@ -1,0 +1,16 @@
+{
+  "proposed": {
+    "n_tasks": 5,
+    "norm_citation_validity_mean": 0.2179,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.5167,
+    "norm_recall_at_k_mean": 0.6,
+    "case_recall_at_k_mean": 0.5167,
+    "link_resolution_rate_mean": 0.3714,
+    "llm_calls_mean": 0,
+    "retrieval_calls_mean": 0,
+    "elapsed_seconds_mean": 66.5981
+  }
+}

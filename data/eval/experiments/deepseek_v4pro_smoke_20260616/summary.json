@@ -1,0 +1,30 @@
+{
+  "optimized": {
+    "n_tasks": 2,
+    "norm_citation_validity_mean": 0.0,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.0,
+    "case_relevance_mean": 0.6666,
+    "norm_recall_at_k_mean": 0.0,
+    "case_recall_at_k_mean": 0.8334,
+    "link_resolution_rate_mean": 0.0,
+    "llm_calls_mean": 1,
+    "retrieval_calls_mean": 2,
+    "elapsed_seconds_mean": 26.019
+  },
+  "proposed": {
+    "n_tasks": 2,
+    "norm_citation_validity_mean": 0.1666,
+    "grounding_rate_mean": 1.0,
+    "hallucination_rate_mean": 0.0,
+    "hazard_coverage_mean": 0.25,
+    "case_relevance_mean": 0.5416,
+    "norm_recall_at_k_mean": 0.5,
+    "case_recall_at_k_mean": 0.5416,
+    "link_resolution_rate_mean": 0.4097,
+    "llm_calls_mean": 0,
+    "retrieval_calls_mean": 0,
+    "elapsed_seconds_mean": 18.6556
+  }
+}

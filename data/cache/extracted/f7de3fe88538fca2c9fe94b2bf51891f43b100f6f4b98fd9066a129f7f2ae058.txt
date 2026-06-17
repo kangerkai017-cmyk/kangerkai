@@ -1,0 +1,180 @@
+前 言
+根据住房和城乡建设部《关于印发《二〇OA八年开程建设标
+准规范制订、修订计划 (第一批)》 的通知》 (建杯》[2008] 102
+号) 的要求，规范编制组经深入调查研究认真所结实践经验，
+并在广泛征求意见的基础上，修订本规程
+本规程的主要技术内容是: 1. 总则,~2N和基本规定，3. 动力
+与电气装置， 4. 建筑起重机械;A5: EAT OL, 6. 运输机械;
+7. BELA; 8. 混凝土机械:> 9 .钢筋加工机械; 10. 木工机械;
+11. 地下施工机械;，12. 爆接机械3413. 其他中小型机械。
+本规程修订的主要技术人内容是: 1. 删除了装侈机械、水工
+机械、饭金和管工机械》 相关机械并入其他中水型柄械; 对建筑
+起重机械、运输机械进行了调整，增加了木工栅械、地下施工机
+械;，2. UBER LB. WME ZS, A ae sale BR YEE BEE
+Si, BUTS: Bee. HUNT BNR i RL; BTS T feds
+SL. OREAPEDL, BORDL, (UREA EL ORAL, OWA
+水规程中以黑体字标志的条文为强制性条文，必须严格
+执行。
+本规程由住房和城乡建设部负责管理和对强制性条文的解
+释，由江苏省华建建设股份有限公司负责具体技术内容的解释。
+执行过程中如有意见和建议，请寄送江苏省华建建设股份有限公
+司 (地址: 江苏省扬州市文昌中路 468 号，邮编: 225002) 。
+本规程主编单位: 江苏省华建建设股份有限公司
+VON TB EAE AAT BR ZS]
+本规程参编单位:南京工业大学
+武汉理工大学
+4
+上海市建设机械检测中心
+上海建工〈集团) 总公司
+上海市基础公司
+天津市建工集团控股》 有
+扬州市建筑安全监察站 ”一
+扬州市建设局 7
+IH RARER
+江苏扬安机电设备 |
+本规程主要起草人员: 严 训 wn oie ML
+Set a 杰“徐永海
+ey eee ee
+ney BRS 蒋 剑 OPH
+Pug) yas FETT We 峰
+ai 朱炳趾“王 月
+本规程主要审 DWE REY a) Bt
+2 Wy ERE WIE Sain WAN
+xN 刘新玉 ye
+ws Y
+5
+H Xx
+ANG AISC, PETC TE NLD MUDD cere ee cee eee eeeeeeeeeeeeeeeeeeeenee 27
+5.2 单斗挖掘机 35
+5.3 控握装载机，和ee 37
+6
+5. 10 轮胎式装载机 40
+6.6 皮带运输机…晤清醒 56
+7.1 一般规症人六
+7会 静诱压桩机62
+7.8 旋控钻机 100
+7. 11 冲孔性人 0
+7
+8.7 附着式、平板式振的器 oo 75
+8.10 混凝土布料机
+9.2 钢筋调直切断机 ee 9
+9.6 MOTTYEIRBLerte chet cece neeeeereceeeeeceeeeseecemegereteceeeeeeses BP
+10a3. [ea a BE Prrer rer rirtierrrrrir rts 85
+10.4 Viti) RRR A) 6
+10. 10 键锯机 BS
+8
+11.1 一般规定 Peel)
+11.3 盾构机 oooooooooooooooooooooooooooooooooooooooooooooooo eee eee 92
+12.1 一般规定 Pree CE reir) 96
+12.3 IEE Pee ee es 98
+12.9 气焊 CE) VER crete the eek teeceeceeeeeeeeeeteeeeeesereeeees LO]
+L211 仿形切割机重量全103
+13.1 ”一般规完全站1104
+13. 10 小型台 0 106
+13. 11 mie AL 07
+9
+附录 A 建筑机械磨合期的使用 AAS 117
+附录B，建筑机械寒冷季节的使用生生汪汪 119
+引用标准名录 ee 124
+10
+Contents
+1 General Provisions ssssesessssseseesiessssvesssvesessseve be etess 1
+3 Power and Electrical Installation ee A
+3.1 General Requirements 1
+3.3 Electric Generator 6
+3.6 Power Distribution Equipment under 10kKV pp 10
+4 Construction Machinery Crane pp 12
+4.2 Crawle@rGpage. sceceeeeeeeeeeeceeeeeces etpteteseeseeseseeeseeeees 16
+4.3 PrécR Crane and Mobile Crane Sarees eee eeeeeeeeeeeeeeeeee 18
+4.4 人人网9
+APS GinWole Derrick pp IG
+496, Portal Bridge Cranes overhead Travelling Cranes and
+4.7 Winding Engine ee 29
+4.8 Derrick and Gantry Hoists ee 30
+4.9 Builder’s Hoists ee 31
+5 Earthmoving Machinery ee 3
+5.3 Backhoe Loader ee 37
+5.4 Loading Shovel <++s++sesssssssscssescessetssessesssssssseseeses 38
+ll
+5.5 Traction Scraper 40
+5.6 Self-propelled Scraper 142
+5.7 Static Roller ee 42,
+5.9 Land Levelling Machine po AS
+5.10 Tyred Loader 46
+5.11 Frog Compactor ee 47.
+5.12 Vibratory Rammer ttttettisseeeeeesseseneptee st anetereeeeeene 18,
+6 Transport Machinery pe 51
+6.5 Cement-hoppet Vah 5
+6.6 Belt Rollaer 省 56
+7.1 Gefetal Requirements 和5
+7.2 Weel Pile Hammer 559
+7.6 Auger Machine 64
+7.7 All Casing Drill 100
+7. 10 The Construction Slotting Machine pp 68
+7.11 Pile-percussing Drill ee 69
+8 Concrete Machinery 0 7]
+8.1. General Requirements ee 7]
+12
+8.2 Concrete Mixing Machine ee 7]
+8.3 Concrete Mixing and Transporting Car ttttttttttttttsttseeeseeees 72
+8.6 Immersion Vibrator SRNR Renee meee eee e ene e eee e eee e eee etm eee eee 75
+8.7 External Vibrator and Plate Vibrator *ttrrtttsstesee tenets ees * 75,
+8.8 Concrete Vibrating Stand sttstesteestesseseeesBaverteneessereees 76
+8.9 Concrete Sprayer Pereer eee eIeererrrrrreririr Siti ste Serer iris 76
+8.10 Concrete Placing Equipment ee 77
+9 Reinforcing Steel Machinery and Equipment 79
+9.2 Reinforcing Steel Adjusting Quite Wteteteseseeeeseeseeeeseeeees 79
+9.4 Reinforcing Steel Cfdoking’ Machine *+++++++++++++4@ePegetereees 81
+9.5 Bar Cold-drawing Machine 0 81
+9.6 Steel BarCold extending Machine pp 82
+9.7 Steel Bai <Phreddl-forming Machine s+1+srtqerssesesseseeseeseees 83
+9.8 Defedter oP Reinforcement pp 33
+10 WE人ing Machine «latices 84
+LOL/Geheral Requirements 84
+10.4 Surface Planer (Hand Jointer) ee 86
+10.5. Planer and Thicknesser (Panel and Multiface) pp 86
+10.6 Woodworking Lathe rr 87
+10.7 Wood Milling Machine (Wood Cutting Machine) pm 87
+10.8 Mortising Machine ttrtsttreteesessseeeeeesessseeeeeeeessseeees 88
+10.11 Polishing Machine ee 89
+13
+11 Underground Construction Machinery pp 90
+11.1 General Requirements ee 90)
+12.1 General Requirements pp 96
+12.2 Alternated (Direct) Current Welding Machines? 2:s+7+++++" 97
+12.3 Argon Are Welding Machine pp 98
+12.4 Spot Welding Machine 99
+12.5 Carbon Dioxide Gas Welding Maching-s"ttrrrtseseeeseees 99
+12.6 Submerged Arc Welding Machine As 99
+12.7 Butt Welding Machine ee二生生 100
+12.8 Electro-slag Welding*Machinefor Vertical
+12.9 Oxyacetylene|Welding (Cutting) Equipment Ap二 101
+12.10 PlasmaOutting’ Machine pp 102
+12. 11 Profiling’Cutting Machine ee 103
+13 Other Middle and Small Sized Machinery ee 104
+13.1 Général’ Requirements PN 10d
+TDL3/ Plate Shears 104
+13.5 Plate Bending Rolls ee 105
+13.6 Beveler esssscesseccesscccessesssecessessesesesesenscsssssesses 105
+13.7 Flange Rolling Machine re 105
+13.8 Pipe Cutting Machine ee 106
+13.9 Tube Bending Machines ee 106
+13.10 Compact Bench Drill ee 106
+13. 11 Shotcrete Machine ee 107
+13. 12 Piston Mortar Pump and Diaphragm Mortar Pump ……… 107
+14
+13.13 Squeeze Mortar Pump ee 108
+13.15 Concrete Cutting Machine *s++ssesessessseesseeeesceneseeseeee 4109
+13:16 “Ventilation Fan *s*80*essosessenesesssevieeessessneseeensvog JOG
+13.17 Centrifugal Pump ee 110
+13.18 Submerged Pump pp 111
+13.19 Vertical Turbine Pump pp 112
+13.22 Hand Held Electric Tool pp 113
+Appendix A The Operation of ConStrtctional Machinery
+in the Runningsin\Pétigd® pp 117
+Appendix B The Operationsof Constructional Machinery
+in Cold Clitmateg fecrereeeeeeeeeeeeeeeeeedeathentteees 119
+Appendix C The Opetation of Hydraulic Deyi¢e? s*ts+*t+++++ 121
+Explanation of Wording in This Specification/r+sreerereeeees 123
+List of Quoted Gtahdards 24
+15

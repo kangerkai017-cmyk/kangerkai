@@ -1,0 +1,37 @@
+{
+  "run_kind": "ablation",
+  "created_at_utc": "2026-06-17T05:37:43.678430+00:00",
+  "command": [
+    "scripts/run_ablation.py",
+    "--output",
+    "data/eval/experiments/deepseek_v4pro_58task_full_ablation_20260617"
+  ],
+  "model": "deepseek-v4-pro",
+  "base_url_domain": "api.deepseek.com",
+  "variants": [],
+  "ablations": [
+    "full",
+    "no_arbitration",
+    "no_case_evidence",
+    "no_case_norm_linker",
+    "no_deterministic_ground",
+    "no_query_rewrite"
+  ],
+  "tasks_path": "/home/sicau_kek/论文/data/eval/training_tasks_v1.jsonl",
+  "tasks_sha256": "d374d991b3b27f6495f8d2ec2adfa9288b0e1c756a9b4beb5cd2238ef5bab834",
+  "script_path": "/home/sicau_kek/论文/scripts/run_ablation.py",
+  "script_sha256": "4130b97d3470ec036457ca03e3b0387502535f12c8ffa9a220931c3e2d70abc3",
+  "git_commit": "git_unavailable",
+  "python": "3.12.13",
+  "platform": "Linux-5.15.0-164-generic-x86_64-with-glibc2.35",
+  "safe_environment": {
+    "LLM_MODEL": "deepseek-v4-pro",
+    "OPENAI_BASE_URL": "api.deepseek.com",
+    "LLM_MAX_TOKENS": "6144",
+    "LLM_DISABLE_THINKING": "true",
+    "LLM_USE_JSON_MODE": "false",
+    "LLM_STRUCTURED_MODE": "json_object",
+    "AGENT_INTERACTIVE_FAST": "true",
+    "RETRIEVAL_BACKEND": "elasticsearch"
+  }
+}

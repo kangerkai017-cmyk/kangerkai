@@ -1,0 +1,6 @@
+variant,task_id,theme,tier,norm_citation_validity,grounding_rate,hallucination_rate,hazard_coverage,case_relevance,norm_recall_at_k,case_recall_at_k,norm_retrieved_count,case_retrieved_count,link_resolution_rate,cited_norm_count,cited_case_count,llm_calls,retrieval_calls,elapsed_seconds,prompt_chars
+proposed,task-高处作业-001,高处作业,S,0.4286,1.0,0.0,0.0,0.75,1.0,0.75,9,5,0.5714,7,5,0,0,79.09647329291329,0
+proposed,task-高处作业-002,高处作业,W,0.0,1.0,0.0,0.0,0.3333,0.0,0.3333,8,5,0.5,6,1,0,0,53.443996808025986,0
+proposed,task-高处作业-003,高处作业,S,0.375,1.0,0.0,0.0,1.0,1.0,1.0,9,5,0.5,8,5,0,0,67.54659014381468,0
+proposed,task-脚手架-001,脚手架,W,0.0,1.0,0.0,0.0,0.25,0.0,0.25,5,5,0.0,4,5,0,0,59.00323609402403,0
+proposed,task-脚手架-002,脚手架,S,0.2857,1.0,0.0,0.0,0.25,1.0,0.25,7,5,0.2857,7,5,0,0,73.90001138998196,0

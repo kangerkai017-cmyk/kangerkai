@@ -1,0 +1,36 @@
+{
+  "run_kind": "benchmark",
+  "created_at_utc": "2026-06-17T02:13:03.316450+00:00",
+  "command": [
+    "scripts/run_benchmark.py",
+    "--output",
+    "data/eval/experiments/qwen35_58task_full_bench_20260617"
+  ],
+  "model": "qwen35-9b-q5_k_m",
+  "base_url_domain": "localhost:51000",
+  "variants": [
+    "llm_only",
+    "naive_dual",
+    "norm_only",
+    "optimized",
+    "proposed"
+  ],
+  "ablations": [],
+  "tasks_path": "/home/sicau_kek/论文/data/eval/training_tasks_v1.jsonl",
+  "tasks_sha256": "d374d991b3b27f6495f8d2ec2adfa9288b0e1c756a9b4beb5cd2238ef5bab834",
+  "script_path": "/home/sicau_kek/论文/scripts/run_benchmark.py",
+  "script_sha256": "627c89f9c33225cf7de0d71c172511ffafb7cffe63c29c6232c7993dad79ae3f",
+  "git_commit": "git_unavailable",
+  "python": "3.12.13",
+  "platform": "Linux-5.15.0-164-generic-x86_64-with-glibc2.35",
+  "safe_environment": {
+    "LLM_MODEL": "qwen35-9b-q5_k_m",
+    "OPENAI_BASE_URL": "localhost:51000",
+    "LLM_MAX_TOKENS": "6144",
+    "LLM_DISABLE_THINKING": "true",
+    "LLM_USE_JSON_MODE": "false",
+    "LLM_STRUCTURED_MODE": "json_object",
+    "AGENT_INTERACTIVE_FAST": "true",
+    "RETRIEVAL_BACKEND": "elasticsearch"
+  }
+}
